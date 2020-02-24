@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="A98E74B2B90E8FE2D7AA81644038884FDFE5D0558DD74AB21399CBAD0F7F10DACBBEBA865E420172EFDEEC0338DADEC90DE2BAAD8B7AB11EE6F3D48A287EC2B6" Timestamp="1D5EA77681F89CF" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition BaseType="Sockets::Socket Listener.gtype" BaseTypeSignature="@510c850519b74e1cba6d37a15f76343a" DataType="@d0fecf954f5f447ca61a79d323cc516a" Id="fe29a3b9767d44c48fe77b67c85893a7" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="b470a8cbe4d548d9a6757c5ea1e0ddf8" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="ee5b49d01c6843bd95ff8c51bff59d23" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="17f5d4e440be4d7191ca0ce5335bb709" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@b333bead5a4b4ceda8a4b7e01ad3b181" Id="382978c8ca97451d853710ccced6facb" Target="Sockets::VISA TCP Listener.gtype::Close.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@6e0d72bd4ff24b4186a5475e3acbf12b" Id="5ea790efb278427495a0f6bb54b6617b" Target="Sockets::VISA TCP Listener.gtype::Create Listener.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@0e6ee8814700437c97971c8ee003b3a0" Id="e3f8c8ce2a2c4033832cccd40f4769b4" Target="Sockets::VISA TCP Listener.gtype::New VISA TCP Listener.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@3e29044d070943dd96face0e4dd08019" Id="184e55193794c328a30b000dcc4d3f1" Target="Sockets::VISA TCP Listener.gtype::Wait on Listener.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<DataItem DataType="@d0fecf954f5f447ca61a79d323cc516a" Id="cf439fa851d64c469fbecb42f3332961" Name="Cluster of class private data">
+			<p.DefaultValue>0_</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="41cdee7a7d76429b847c1597b41a472c" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="9e764159d6514db4bc817b652a4c15db" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="778f03396301412e85db58460df64359" Name="VISA TCP Listener.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="12fba2fbf34c474a8428de2b7bc2970c" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition Id="111202434bd34f458ddb36f3ea1c5b1a" xmlns="http://www.ni.com/MocCommon">
+					<Label Id="35a948451a1e44fcbf7d6cbfc8de2e81" LabelOwner="[UIModel]5061ce8bd10546bea12f10fd250ef98d" Left="[float]100" Text="[string]Cluster of class private data" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" ClusterType="[Type]@d0fecf954f5f447ca61a79d323cc516a" Enabled="[bool]True" Height="[float]43" Id="5061ce8bd10546bea12f10fd250ef98d" IsTabStop="[bool]True" Label="[UIModel]35a948451a1e44fcbf7d6cbfc8de2e81" Left="[float]100" TabIndex="[int]0" Top="[float]30" Value="{DataItemBinding Id=cf439fa851d64c469fbecb42f3332961}" Width="[float]55" xmlns="http://www.ni.com/PanelCommon">
+						<OpaqueRefnum Enabled="[bool]True" Height="[float]27" Id="44139b72d92d4861a3e04ad7eba71c53" IsTabStop="[bool]False" Label="[UIModel]2cb785492fea47edb366984656d4838f" Left="[float]4" RefnumType="[Type]@5d83544c89e84c18b98e53e40ab66efb" TabIndex="[int]0" Top="[float]4" Value="{ClusterBinding FieldName=Listener\ ID}" Width="[float]21" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="2cb785492fea47edb366984656d4838f" LabelAlignment="[PartAlignment]RightTop" LabelOwner="[UIModel]44139b72d92d4861a3e04ad7eba71c53" Left="[float]33" Text="[string]Listener ID" Top="[float]4" />
+					</Cluster>
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+			<SourceFileReference Id="954a7b51bca242299e45cbd5fe3dab76" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Close.gvi" StoragePath="SubVIs\Close.gvi" />
+			<SourceFileReference Id="6ba258eb74de4b1184e34146240dcfca" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Create Listener.gvi" StoragePath="SubVIs\Create Listener.gvi" />
+			<SourceFileReference Id="a6b7569f5a894762bc4b1eab79dbb2c1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="New VISA TCP Listener.gvi" StoragePath="New VISA TCP Listener.gvi" />
+			<SourceFileReference Id="7e926b7b72d54ae0a7f6acedb412ec23" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Wait on Listener.gvi" StoragePath="SubVIs\Wait on Listener.gvi" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="510c850519b74e1cba6d37a15f76343a">
+			<Attributed AttributedType="@c53083f4ff42453a9d467214abfd8750">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Sockets" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="d0fecf954f5f447ca61a79d323cc516a">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Listener ID" DataType="@5d83544c89e84c18b98e53e40ab66efb" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="b333bead5a4b4ceda8a4b7e01ad3b181">
+			<Attributed AttributedType="@19ca8dd8e4fb4a28aec43653f8bac4b0">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]50" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]50" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="6e0d72bd4ff24b4186a5475e3acbf12b">
+			<Attributed AttributedType="@3a23d6af5f5846359284685e7c9d09dc">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]50" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]50" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="0e6ee8814700437c97971c8ee003b3a0">
+			<Attributed AttributedType="@cd9ac89c907646e3bab91b3ddaa7fc5e">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]50" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]50" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="3e29044d070943dd96face0e4dd08019">
+			<Attributed AttributedType="@6bcf4869e18a4500878a61ef31cfe365">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]50" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]50" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="5d83544c89e84c18b98e53e40ab66efb">
+			<Attributed AttributedType="@aecbd12bc3834f87bb3a72b2808b161b">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="c53083f4ff42453a9d467214abfd8750">
+			<Composite Id="1" Name="Socket Listener.gtype" GenericTypeDefinition="Void" BaseType="@07f071015808433da381d3cb1564379a">
+				<Members>
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void" DeclaringType="@510c850519b74e1cba6d37a15f76343a" GenericTypeDefinition="Void" />
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Create Listener.gvi" ReturnType="Void" DeclaringType="@510c850519b74e1cba6d37a15f76343a" GenericTypeDefinition="Void" />
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Wait on Listener.gvi" ReturnType="Void" DeclaringType="@510c850519b74e1cba6d37a15f76343a" GenericTypeDefinition="Void" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="19ca8dd8e4fb4a28aec43653f8bac4b0">
+			<Function Id="1" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void" DeclaringType="@dd86ca6a28b747a9b5e585642ef9f95a" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@f16fe204628849c4ae48c84f0b56c0bb">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]VISA TCP listener in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@71734e09f32b41b4824be778a34d0312">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@20e507c160be473e90d8aac5cd45a011">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="3a23d6af5f5846359284685e7c9d09dc">
+			<Function Id="1" IsStatic="False" IsConstructor="False" Name="Create Listener.gvi" ReturnType="Void" DeclaringType="@dd86ca6a28b747a9b5e585642ef9f95a" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@f16fe204628849c4ae48c84f0b56c0bb">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]VISA TCP listener in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@ff4929c30db4445cb3ec5be0f7093877">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]port" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@21b59e335b3544119bfab57c19b72cc4">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]timeout ms" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@71734e09f32b41b4824be778a34d0312">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@eaa9456cfd7045ae80ac9fea30b475f9">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]VISA TCP listener out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@20e507c160be473e90d8aac5cd45a011">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="cd9ac89c907646e3bab91b3ddaa7fc5e">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="New VISA TCP Listener.gvi" ReturnType="Void" DeclaringType="@dd86ca6a28b747a9b5e585642ef9f95a" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@71734e09f32b41b4824be778a34d0312">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@4013b0b58e8846f6927113a9c749f48a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]VISA TCP listener out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@20e507c160be473e90d8aac5cd45a011">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="6bcf4869e18a4500878a61ef31cfe365">
+			<Function Id="1" IsStatic="False" IsConstructor="False" Name="Wait on Listener.gvi" ReturnType="Void" DeclaringType="@dd86ca6a28b747a9b5e585642ef9f95a" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@f16fe204628849c4ae48c84f0b56c0bb">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]VISA TCP listener in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@21b59e335b3544119bfab57c19b72cc4">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]timeout ms" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@71734e09f32b41b4824be778a34d0312">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@eaa9456cfd7045ae80ac9fea30b475f9">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]VISA TCP listener out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@7d10adec07b046c0aba2a485a8cc4898">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]socket out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@20e507c160be473e90d8aac5cd45a011">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="aecbd12bc3834f87bb3a72b2808b161b">
+			<Composite Id="1" Name="TcpNetworkConnectionRefnum" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="07f071015808433da381d3cb1564379a">
+			<Composite Id="1" Name="gObject" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="dd86ca6a28b747a9b5e585642ef9f95a">
+			<Attributed AttributedType="@d5d2fea190564a628642b66e8d7d280f">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Sockets" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="f16fe204628849c4ae48c84f0b56c0bb">
+			<Parameter InputParameterPassingRule="DynamicDispatch" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@dd86ca6a28b747a9b5e585642ef9f95a" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="71734e09f32b41b4824be778a34d0312">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L4" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="20e507c160be473e90d8aac5cd45a011">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R4" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="ff4929c30db4445cb3ec5be0f7093877">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="UInt16" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="21b59e335b3544119bfab57c19b72cc4">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="Int32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="eaa9456cfd7045ae80ac9fea30b475f9">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="DynamicDispatch" Name="R0" DataType="@dd86ca6a28b747a9b5e585642ef9f95a" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="4013b0b58e8846f6927113a9c749f48a">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@dd86ca6a28b747a9b5e585642ef9f95a" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="7d10adec07b046c0aba2a485a8cc4898">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="@71d33f47c162455bbe982d174d94f05b" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="d5d2fea190564a628642b66e8d7d280f">
+			<Composite Id="1" Name="VISA TCP Listener.gtype">
+				<MemberScopes>
+					<Access Scope="Private" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+				</MemberScopes>
+				<GenericTypeDefinition>Void</GenericTypeDefinition>
+				<BaseType>@510c850519b74e1cba6d37a15f76343a</BaseType>
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Listener ID" DataType="@5d83544c89e84c18b98e53e40ab66efb" />
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void" DeclaringType="@dd86ca6a28b747a9b5e585642ef9f95a" GenericTypeDefinition="Void" />
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Create Listener.gvi" ReturnType="Void" DeclaringType="@dd86ca6a28b747a9b5e585642ef9f95a" GenericTypeDefinition="Void" />
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="New VISA TCP Listener.gvi" ReturnType="Void" DeclaringType="@dd86ca6a28b747a9b5e585642ef9f95a" GenericTypeDefinition="Void" />
+					<Function Id="5" IsStatic="False" IsConstructor="False" Name="Wait on Listener.gvi" ReturnType="Void" DeclaringType="@dd86ca6a28b747a9b5e585642ef9f95a" GenericTypeDefinition="Void" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="71d33f47c162455bbe982d174d94f05b">
+			<Attributed AttributedType="@3b2ed614fc1245f09a3002d4db3c75ee">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Sockets" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="3b2ed614fc1245f09a3002d4db3c75ee">
+			<Composite Id="1" Name="Socket.gtype" GenericTypeDefinition="Void" BaseType="@07f071015808433da381d3cb1564379a">
+				<Members>
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void" DeclaringType="@71d33f47c162455bbe982d174d94f05b" GenericTypeDefinition="Void" />
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Read.gvi" ReturnType="Void" DeclaringType="@71d33f47c162455bbe982d174d94f05b" GenericTypeDefinition="Void" />
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Write.gvi" ReturnType="Void" DeclaringType="@71d33f47c162455bbe982d174d94f05b" GenericTypeDefinition="Void" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+	<IconTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.IconModel Target="Sockets::VISA TCP Listener.gtype::Close.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 50 50">
+						<IconPanel Height="[float]50" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]50">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]10" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADMSURBVEhL7ZLBEcQgDAOv/w6up+uJMyNHCOHwSn7sMMlKdnjl8/v2E6gwriWeEKARnk2+roE+ebTUpx4wNfm6PqCUkU+dWgnpbhWEkYeNjRCVMcrXLIw8bCCknKYPq5zsncuQjMMW1waHjY6AlT0OqxzsewhAk/2wG9e4yl3Z47ALuDXcoQArIYyv0V7jXG2cqw2/Wv9I+zV1FCAG5sQ/VtHVzSiwCHYbGukqpZMp66rGwEZk3SRexRL34IFG9aCMYArPcq42ztUTrf0BeYEuNRLgyr8AAAAASUVORK5CYII=" Top="[float]10" Width="[float]30" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]Sockets.gcomp" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Socket Listener.gtype" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VISA TCP Listener.gtype" Top="[float]0" Width="[float]50" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="Sockets::VISA TCP Listener.gtype::Create Listener.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 50 50">
+						<IconPanel Height="[float]50" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]50">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]10" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADLSURBVEhL7ZLLFcQgDAO3/w62p+2JtSMjK+Zz48Y8Hoxkwimf39eXocI4ltghQCM8mjj6QHcuLXXXBV5NHP0DyjRy12kpIe6lgjBysSkjRCVHcbyFkYsNhEyn4WkzJ3vnZUjEtMG1wWKjI1BKj2kzB/seAtBEn7ZwjaOsSo9pHXhpeIcCSglhPEY7xn26cJ8u5NP6L8KNTVQ3inuMQ65uIrCoDV1LY9F2NNI3Qjfm91bRMCdsioD6DV3lmThsVgIi4jjBfbpwn37R2h8RrQRfqb4BogAAAABJRU5ErkJggg==" Top="[float]10" Width="[float]30" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]Sockets.gcomp" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Socket Listener.gtype" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VISA TCP Listener.gtype" Top="[float]0" Width="[float]50" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="Sockets::VISA TCP Listener.gtype::New VISA TCP Listener.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 50 50">
+						<IconPanel Height="[float]50" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]50">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]10" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEHSURBVEhL3ZFRDgMhCER7/xv0Tr3TVh0cWQTFNPvTF+M+Bkq36evzrqegheUc4oYAXcIlkUdv6JtHh/rWB9wSefQPUNySt+6aEFLdRBCWPExMC6VmtORxF5Y8TCDE7YoP85ysncMQKYdNrhMcJroFTFjLYZ6DdQ4BSCQfFrguZ4nCWg7rwE3CGQowIYTlY1yPcbC6vcfJvDxj+Mu4Ovlbc0NtF1Yn9xaycwWsliLBZrS+ZKcNixdkImY7IRu9s2E/UcA7tjv1viDx5X0XVutkTWoIcHWSg9FT/mz1/d+rN2ACtBviRgPCG0S5IW70TxqBm9slbniLyHZvIezNq4EJUbqsej9xXV9ttf5WeCPRkwAAAABJRU5ErkJggg==" Top="[float]10" Width="[float]30" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]Sockets.gcomp" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Socket Listener.gtype" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VISA TCP Listener.gtype" Top="[float]0" Width="[float]50" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="Sockets::VISA TCP Listener.gtype::Wait on Listener.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 50 50">
+						<IconPanel Height="[float]50" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]50">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]10" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEZSURBVEhLtY4JcsQgDATz/x/sn/Inr/Dg0aADJ3t0Ubg1Apmf38dYhgrLHGKHAC3hM5mfq6E7l4a66wJLMj/XBUpZctduCCHDQwRhycUktFAq3pqfVVhyMYGQsjvdrXKydx6GzNItuSZYTLQFQjhKt8rBPocAJDN3a1zLLF04SrcLeEh4hgJCCGH5NY6vUY/WX9LPl7gzMRAGmvS6yR2iHiRTN3Ah711Z0jfSCBJySKZvNCO6PNM23ud+tL0rv5Gy4eZEmGU75Yx3/Hs0dsieV0arbPjDiRN6kA33J17GR+tD9HVg7+OoCPBCG+EOKaeYo9TQWE5MEx+X7nKIJqC4ZsRD6xQVowyN5QSAhwTQkRshhICl+CTH8QRuTHHjEKqGAwAAAABJRU5ErkJggg==" Top="[float]10" Width="[float]30" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]Sockets.gcomp" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Socket Listener.gtype" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VISA TCP Listener.gtype" Top="[float]0" Width="[float]50" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+	</IconTable>
+</SourceFile>

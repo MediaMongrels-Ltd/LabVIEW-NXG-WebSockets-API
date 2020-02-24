@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="D1ED98248C595E929A47AE952204FDFA02974DE75005AE9D9875AAAF214E13E9620B43F4D684C558C1C0D19D9B8CACDFDCC71351BFE06D0FEE7FD3850865446C" Timestamp="1D5EA609131FDA3" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Default" Id="85b7956dbd6d4782b98f6a7b199a2394" RootNamespaceId="eacd6a6a6ceb43f48679df00850bcf0b" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="ca8b3e50e7e54488b443c49b17c654e9" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="ce8380a5179b4661bdd7b6fe0624c669" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="54e1c079cfcc439cb3ca38f7b0520a8a" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="a3988c9e7c584c92b2a5ff191b1ed025" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="c35b1d27ba3f4f6bbcb306d246d54c98" Name="Default">
+			<CompilerSymbolTable Id="59830d7bb56f46539a40545011cdc43f" xmlns="http://www.ni.com/PlatformFramework" />
+			<ComponentItemProperties AssociatedEnvoyId="376d568b66e948c8a6c28c3e30cac083" Exported="True" Id="bd11395656d4472ebaafac5a7d1228d0" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="6cbcc162da554a2bbdfa39f4a16a3c4d" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="e6bcd5078962482ca7f00258c2f8a462" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="d7ca533803f64804a70b6b1c4a1c8269" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="eacd6a6a6ceb43f48679df00850bcf0b" Name="WebSocketsDependencies">
+				<SourceFileReference Id="376d568b66e948c8a6c28c3e30cac083" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Join Strings.gvi" StoragePath="Join Strings.gvi" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="5ba5137543d240bc8f9e23d0e48f53bf" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="WebSocketsDependencies.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="c35b1d27ba3f4f6bbcb306d246d54c98" Id="8d7cb4fd91454508904b127455cde59a" Name="Default" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

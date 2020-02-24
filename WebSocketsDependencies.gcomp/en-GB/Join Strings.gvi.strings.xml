@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LocalizedStringsDictionary source_language="en-GB">
+  <entry key="VirtualInstrument_CustomTitle">
+    <loc>Join Strings</loc>
+  </entry>
+  <entry key="VirtualInstrument_UserDescription">
+    <loc><![CDATA[Joins the elements of <B>Strings In</B> separating them with <B>Separator</B>.<br/><br/><B>Separator</B> - The item to put between each string.<br/><B>Strings In</B> - The strings to join.<br/><B>String</B> - The resultant joined string.]]></loc>
+  </entry>
+  <entry key="Diagram_strings_2000in_NodeLabel_Text">
+    <loc>strings in</loc>
+  </entry>
+  <entry key="Diagram_separator_NodeLabel_Text">
+    <loc>separator</loc>
+  </entry>
+  <entry key="Diagram_string_NodeLabel_Text">
+    <loc>string</loc>
+  </entry>
+  <entry key="Panel_strings_2000in_Label_Text">
+    <loc>strings in</loc>
+  </entry>
+  <entry key="Panel_separator_Label_Text">
+    <loc>separator</loc>
+  </entry>
+  <entry key="Panel_string_Label_Text">
+    <loc>string</loc>
+  </entry>
+  <entry key="strings_2000in_DataItem_Name">
+    <loc>strings in</loc>
+  </entry>
+  <entry key="separator_DataItem_Name">
+    <loc>separator</loc>
+  </entry>
+  <entry key="string_DataItem_Name">
+    <loc>string</loc>
+  </entry>
+</LocalizedStringsDictionary>

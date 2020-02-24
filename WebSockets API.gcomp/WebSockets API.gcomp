@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="C7BF09DFBD570044F1F4BDDAE7BD67F488553EC0901ADE27F6BA9AF85BD47FB449AA27BC5C5535C4F5D588850BD82B6F66AD123178639E0630D6D6D64FF1FDD0" Timestamp="1D5EA6BE4E4CFD7" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition AutoIncrementOnBuild="True" Company="MediaMongrels Ltd" DefaultConfigurationName="Default" Id="5095787fd8584bd3954f38cf1e469531" Product="WebSockets API" RootNamespaceId="f3321ec4a7b942358b3fcad4be62c9d8" UserVersion="1.0.0.0" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="5e5ab26e17934ee582a817cd01c15087" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="a5fc2f1fe064ae8b0e55cb81f296ed8" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="ded94c3f127402ca02e0a5f88781cc1" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="7b1377a95aa047cda2b7428a365869b0" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration AssociatedPalettes="b5af3a0dc4b402d820bbc9fc10f7408" Id="d1ec163667f84e318dd771e4bd39739c" Name="Default">
+			<CompilerSymbolTable Id="261db2b910c0406f897bcdc82e007d20" xmlns="http://www.ni.com/PlatformFramework" />
+			<ComponentItemProperties AssociatedEnvoyId="4a351e3ea25647a8980ab460ecd97a60" Exported="True" Id="c0b34fda7a99465f9b88052dc8b57b36" />
+			<ComponentItemProperties AssociatedEnvoyId="74748d6b6fb04c489f7c8e0333f04587" Exported="True" Id="62b8b7a2dd2b49e29c6d26332871255f" />
+			<ComponentItemProperties AssociatedEnvoyId="919aa895f0f845c29959c51f15a74abc" Exported="True" Id="6be1d4dea94b4e5c81db313b9895ee74" />
+			<ComponentItemProperties AssociatedEnvoyId="ce1c413f9f784e64853dc1240f3d8883" Exported="True" Id="4256d167f6a54ea0bbff766f071ee067" />
+			<ComponentItemProperties AssociatedEnvoyId="1094fa89fa824d5eb792908104df4316" Exported="True" Id="2545b903c0b04eafac48738186644762" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="9e41760ac5dd42c6b028650f77029b90" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="7122c0615cd4c26bcbbf5c53a21dfa1" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="72421e3d81804004a92f74f6e7bcfa18" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="f3321ec4a7b942358b3fcad4be62c9d8" Name="WebSockets">
+				<SourceFileReference Bindings="EnvoyManager" Id="4a351e3ea25647a8980ab460ecd97a60" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="WebSocket.gtype" StoragePath="WebSocket.gtype\WebSocket.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="74748d6b6fb04c489f7c8e0333f04587" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="WebSocket Client.gtype" StoragePath="WebSocket Client.gtype\WebSocket Client.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="919aa895f0f845c29959c51f15a74abc" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="WebSocket Server.gtype" StoragePath="WebSocket Server.gtype\WebSocket Server.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="ce1c413f9f784e64853dc1240f3d8883" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Opcodes.gtype" StoragePath="Opcodes.gtype\Opcodes.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="1094fa89fa824d5eb792908104df4316" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Headers.gtype" StoragePath="Headers.gtype\Headers.gtype" />
+				<SourceFileReference Bindings="NativeTarget" Id="b5af3a0dc4b402d820bbc9fc10f7408" ModelDefinitionType="NationalInstruments.SourceModel.PaletteDefinition" Name="WebSockets API.gpal" OverridingModelDefinitionType="NationalInstruments.SourceModel.PaletteDocument" StoragePath="WebSockets API.gpal" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="63ba8ea94ea24a9bb10f95f81cdc06bc" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="WebSockets API.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="d1ec163667f84e318dd771e4bd39739c" Id="d4f84876f75a450f9073db420e2e2bad" Name="Default" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

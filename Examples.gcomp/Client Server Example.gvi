@@ -1,0 +1,1244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="5C9F38D2D39FFD07681380E08AA42626D0694BFF3CC337E02B7659C3C59A0D38F0C7362DF80F8760CF2F5D8970E047CCBA6B84F23F8EC229071902F547116F6A" Timestamp="1D5EB515BAAB94A" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="d53ac360ab77475dbee7aa57306e85ae" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="fe4f97b6215549faa32af0a4aa635615" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="6c372a1b93c2411e812e5ba178285fa7" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="2e672bb66b6a48879fec89933f4a815c" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="d10482221bf04912b6fddbc4378459cd" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="987fe448d73642c58feadeade90a1352" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Id="2d448f39e00b44ac87581d048cf989ae" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Client Server Example" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+						<FontSetting FontFamily="Segoe UI" FontSize="6.75" Id="65d97e8f75e54c0195aaca389a1eed9e" />
+					</FileNameText>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="570b37d358874569ad5c6c30a718281d" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="1f418535cc2540a0a83e62dddf2b1a1d" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="733ca481093c4c43a79edd7df36d60ca" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="d2e93a49ad7642a58502fdd84cb498df">
+			<MethodCall Bounds="330 325 50 50" Id="8edfdd4d970d41899e912749ef7f3836" ResolveFailedHint="&quot;C:\\Users\\Sam\\Documents\\LabVIEW Projects\\2020_02_23_16_46_08\\WebSockets.lvproject\\WebSockets API.gcomp\\WebSocket Client.gtype\\New Client.gvi&quot;" Signature="@87623ae078744732841e20d796a03305" Target="WebSockets::WebSocket Client.gtype::New Client.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="webSocket URL" />
+						<Parameter Id="L2" Desc="timeout ms" />
+						<Parameter Id="L4" Desc="error in" />
+						<Parameter Id="R0" Desc="webSocket client out" />
+						<Parameter Id="R4" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="String" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@fe4d3a669d8847af8f63130e8a884693" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<Wire Id="df6628cf37a74f63b123b900be689f6f" Joints="N(e99f3d75ccd24ca6b5a6190516648083:Out)|(260,330) N(8edfdd4d970d41899e912749ef7f3836:L0)|(330,330)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="190 405 45 15" DataType="Int32" Id="ef09591bbea14bdb88203ab56aa81e24" Label="4fd265e6345a47ec8c7790281b44f410" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>5000</p.Data>
+				<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:0" />
+			</Literal>
+			<Wire Id="2430750341b84ccba8e0e3853184cc52" Joints="N(ef09591bbea14bdb88203ab56aa81e24:Out)|(235,410) h(5) v(-5) h(25) B(3) h(80) B(4) h(75) B(5) h(180) B(6) h(200) B(7) h(135) v(-55) N(97456c89c4cf4783bfedfb2b17d325e5:L2)|(950,350) B(7) v(-55) N(99fc4b3b58ca43ffa292e5006629d818:L2)|(810,350) B(6) v(-55) N(42767d0bf05e47bcbfd0dc6cfc41588f:L2)|(630,350) B(5) v(-55) N(f248c236c6f5422ebb2a3cfda4bc8e06:L2)|(455,350) B(4) v(165) N(efbc36909e246dea693894b03a1e796:L2)|(370,570) B(3) v(-55) N(8edfdd4d970d41899e912749ef7f3836:L2)|(330,350) B(3) v(165) N(21be2541a8744cc0aec8567cb8cc1eba:L2)|(285,570)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="630 325 50 50" Id="42767d0bf05e47bcbfd0dc6cfc41588f" ResolveFailedHint="&quot;C:\\Users\\Sam\\Documents\\LabVIEW Projects\\2020_02_23_16_46_08\\WebSockets.lvproject\\WebSockets API.gcomp\\WebSocket.gtype\\Write Text.gvi&quot;" Signature="@67175d3bcb794f14934e90066a700bbc" Target="WebSockets::WebSocket.gtype::Write Text.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="webSocket in" />
+						<Parameter Id="L1" Desc="string data" />
+						<Parameter Id="L2" Desc="timeout ms" />
+						<Parameter Id="L4" Desc="error in" />
+						<Parameter Id="R0" Desc="webSocket out" />
+						<Parameter Id="R4" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="@fe4d3a669d8847af8f63130e8a884693" Direction="Input" Id="L0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@fe4d3a669d8847af8f63130e8a884693" Direction="Output" Hotspot="50 5" Id="R0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<Wire Id="d6e069a27b2148d7b766f0d45606d664" Joints="N(c0d2e425a46f43e6b07eac3b53786c4b:Out)|(550,270) h(45) v(70) N(42767d0bf05e47bcbfd0dc6cfc41588f:L1)|(630,340)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="810 325 50 50" Id="99fc4b3b58ca43ffa292e5006629d818" ResolveFailedHint="&quot;C:\\Users\\Sam\\Documents\\LabVIEW Projects\\2020_02_23_16_46_08\\WebSockets.lvproject\\WebSockets API.gcomp\\WebSocket.gtype\\Read Text.gvi&quot;" Signature="@1e843cf81aa844e38c9c1137dd55b561" Target="WebSockets::WebSocket.gtype::Read Text.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="webSocket in" />
+						<Parameter Id="L2" Desc="timeout ms" />
+						<Parameter Id="L4" Desc="error in" />
+						<Parameter Id="R0" Desc="webSocket out" />
+						<Parameter Id="R1" Desc="data" />
+						<Parameter Id="R4" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="@fe4d3a669d8847af8f63130e8a884693" Direction="Input" Id="L0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@fe4d3a669d8847af8f63130e8a884693" Direction="Output" Hotspot="50 5" Id="R0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<MethodCall Bounds="950 325 50 50" Id="97456c89c4cf4783bfedfb2b17d325e5" ResolveFailedHint="&quot;C:\\Users\\Sam\\Documents\\LabVIEW Projects\\2020_02_23_16_46_08\\WebSockets.lvproject\\WebSockets API.gcomp\\WebSocket.gtype\\Close.gvi&quot;" Signature="@03acd2d64f414d5faa0aceafee9505f8" Target="WebSockets::WebSocket.gtype::Close.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="webSocket in" />
+						<Parameter Id="L2" Desc="timeout ms" />
+						<Parameter Id="L4" Desc="error in" />
+						<Parameter Id="R4" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="@33912800020749a4b8688a0fee03de60" Direction="Input" Id="L0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<Wire Id="68cbadd960ed4e07a5b0b89e92edddc0" Joints="N(42767d0bf05e47bcbfd0dc6cfc41588f:R4)|(680,370) N(99fc4b3b58ca43ffa292e5006629d818:L4)|(810,370)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="cef8666ca2d44ed0834c951140a807e2" Joints="N(42767d0bf05e47bcbfd0dc6cfc41588f:R0)|(680,330) N(99fc4b3b58ca43ffa292e5006629d818:L0)|(810,330)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="73ffd78b92344ebd900555cb2d719b5a" Joints="N(99fc4b3b58ca43ffa292e5006629d818:R0)|(860,330) N(97456c89c4cf4783bfedfb2b17d325e5:L0)|(950,330)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="cdf7f6d64c424632accd3b7d31080c31" Joints="N(99fc4b3b58ca43ffa292e5006629d818:R4)|(860,370) N(97456c89c4cf4783bfedfb2b17d325e5:L4)|(950,370)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="915 265 40 15" DataItem="41b4ee8bc49149d7986f22434b8450ba" Id="4d500209152b4656970c9c06fb5b3d1d" Label="f431ca259d044a6fb02059c7ea07d49a" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<Wire Id="a351bb27a65a46d982c2c13dafe1eff5" Joints="N(99fc4b3b58ca43ffa292e5006629d818:R1)|(860,340) h(35) v(-70) N(4d500209152b4656970c9c06fb5b3d1d:Value)|(918,270)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="455 325 50 50" Id="f248c236c6f5422ebb2a3cfda4bc8e06" ResolveFailedHint="&quot;C:\\Users\\Sam\\Documents\\LabVIEW Projects\\2020_02_23_16_46_08\\WebSockets.lvproject\\WebSockets API.gcomp\\WebSocket.gtype\\Handshake.gvi&quot;" Signature="@ed452fa61f854653a1814202eaca1432" Target="WebSockets::WebSocket.gtype::Handshake.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="webSockets in" />
+						<Parameter Id="L2" Desc="timeout ms" />
+						<Parameter Id="L4" Desc="error in" />
+						<Parameter Id="R0" Desc="webSockets out" />
+						<Parameter Id="R4" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="@fe4d3a669d8847af8f63130e8a884693" Direction="Input" Id="L0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@fe4d3a669d8847af8f63130e8a884693" Direction="Output" Hotspot="50 5" Id="R0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<Wire Id="a3efda2743cd4297a90e9d092f38a301" Joints="N(8edfdd4d970d41899e912749ef7f3836:R0)|(380,330) N(f248c236c6f5422ebb2a3cfda4bc8e06:L0)|(455,330)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="5d1b3a6a78d5479cbf103322d593d059" Joints="N(f248c236c6f5422ebb2a3cfda4bc8e06:R0)|(505,330) N(42767d0bf05e47bcbfd0dc6cfc41588f:L0)|(630,330)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="d2a94dd6c5049ab9a2ec8432e1946ab" Joints="N(f248c236c6f5422ebb2a3cfda4bc8e06:R4)|(505,370) N(42767d0bf05e47bcbfd0dc6cfc41588f:L4)|(630,370)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="84889c6411ce466dbbb6485e0d350a15" Joints="N(8edfdd4d970d41899e912749ef7f3836:R4)|(380,370) N(f248c236c6f5422ebb2a3cfda4bc8e06:L4)|(455,370)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Comment Bounds="455 190 310 15" Id="f4f94d700f364cc9a112cbbfc09689d9" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>A very simple client example for the WebSockets API</p.Text>
+			</Comment>
+			<NodeLabel AttachedTo="ef09591bbea14bdb88203ab56aa81e24" Bounds="190 387 30 15" Id="4fd265e6345a47ec8c7790281b44f410" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>timeout ms</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="4d500209152b4656970c9c06fb5b3d1d" Bounds="960 265 58 14" Id="f431ca259d044a6fb02059c7ea07d49a" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Read Data</p.Text>
+			</NodeLabel>
+			<MethodCall Bounds="545 460 50 50" Id="812ae140a8448b6ba85702f4f4363c4" ResolveFailedHint="&quot;C:\\Users\\Sam\\Documents\\LabVIEW Projects\\2020_02_23_16_46_08\\WebSockets.lvproject\\WebSockets API.gcomp\\WebSocket Server.gtype\\New Server from Socket.gvi&quot;" Signature="@a004c0e129f6474796973283a663f8c7" Target="WebSockets::WebSocket Server.gtype::New Server from Socket.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="socket" />
+						<Parameter Id="L4" Desc="error in" />
+						<Parameter Id="R0" Desc="webSocket server out" />
+						<Parameter Id="R4" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="@71d33f47c162455bbe982d174d94f05b" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@ae10bdbab4ac4ecf82b1a9a7f1b84dc7" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<Literal Bounds="130 325 130 15" DataType="String" Id="e99f3d75ccd24ca6b5a6190516648083" Label="87c488684d24b89a69a0b1e0d57697b" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>ws://localhost:7890</p.Data>
+				<StringBehavior TextDisplayMode="Default" />
+			</Literal>
+			<NodeLabel AttachedTo="e99f3d75ccd24ca6b5a6190516648083" Bounds="130 307 30 15" Id="87c488684d24b89a69a0b1e0d57697b" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>WebSockets URL</p.Text>
+			</NodeLabel>
+			<MethodCall Bounds="135 545 50 50" Id="657b8d266f874554b9b624d820eaabe5" ResolveFailedHint="&quot;C:\\Users\\Sam\\Documents\\LabVIEW Projects\\2020_02_23_16_46_08\\WebSockets.lvproject\\Sockets.gcomp\\VISA TCP Listener.gtype\\New VISA TCP Listener.gvi&quot;" Signature="@0e6ee8814700437c97971c8ee003b3a0" Target="Sockets::VISA TCP Listener.gtype::New VISA TCP Listener.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L4" Desc="error in" />
+						<Parameter Id="R0" Desc="VISA TCP listener out" />
+						<Parameter Id="R4" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@dd86ca6a28b747a9b5e585642ef9f95a" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<MethodCall Bounds="285 545 50 50" Id="21be2541a8744cc0aec8567cb8cc1eba" ResolveFailedHint="&quot;C:\\Users\\Sam\\Documents\\LabVIEW Projects\\2020_02_23_16_46_08\\WebSockets.lvproject\\Sockets.gcomp\\VISA TCP Listener.gtype\\SubVIs\\Create Listener.gvi&quot;" Signature="@6e0d72bd4ff24b4186a5475e3acbf12b" Target="Sockets::VISA TCP Listener.gtype::Create Listener.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="VISA TCP listener in" />
+						<Parameter Id="L1" Desc="port" />
+						<Parameter Id="L2" Desc="timeout ms" />
+						<Parameter Id="L4" Desc="error in" />
+						<Parameter Id="R0" Desc="VISA TCP listener out" />
+						<Parameter Id="R4" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="@dd86ca6a28b747a9b5e585642ef9f95a" Direction="Input" Id="L0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="UInt16" Direction="Input" Hotspot="0 15" Id="L1" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@dd86ca6a28b747a9b5e585642ef9f95a" Direction="Output" Hotspot="50 5" Id="R0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<Wire Id="2ddc279a85a44811b25236e79f43d30c" Joints="N(657b8d266f874554b9b624d820eaabe5:R0)|(185,550) N(21be2541a8744cc0aec8567cb8cc1eba:L0)|(285,550)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="ecb95dd11af946ccaa36b314ffbd1426" Joints="N(657b8d266f874554b9b624d820eaabe5:R4)|(185,590) N(21be2541a8744cc0aec8567cb8cc1eba:L4)|(285,590)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="195 525 45 15" DataType="UInt16" Id="dc19ae4cb6cf4b90a3a4bec9cc59f4d5" Label="8f4242a54a45400bbbbf751ac60ffcf9" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>7890</p.Data>
+				<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:0" />
+			</Literal>
+			<NodeLabel AttachedTo="dc19ae4cb6cf4b90a3a4bec9cc59f4d5" Bounds="195 507 30 15" Id="8f4242a54a45400bbbbf751ac60ffcf9" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>port</p.Text>
+			</NodeLabel>
+			<Wire Id="7f7ee017c6ea4de1a6f782175c841bce" Joints="N(dc19ae4cb6cf4b90a3a4bec9cc59f4d5:Out)|(240,530) h(5) v(30) N(21be2541a8744cc0aec8567cb8cc1eba:L1)|(285,560)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="370 545 50 50" Id="efbc36909e246dea693894b03a1e796" ResolveFailedHint="&quot;C:\\Users\\Sam\\Documents\\LabVIEW Projects\\2020_02_23_16_46_08\\WebSockets.lvproject\\Sockets.gcomp\\VISA TCP Listener.gtype\\SubVIs\\Wait on Listener.gvi&quot;" Signature="@3e29044d070943dd96face0e4dd08019" Target="Sockets::VISA TCP Listener.gtype::Wait on Listener.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="VISA TCP listener in" />
+						<Parameter Id="L2" Desc="timeout ms" />
+						<Parameter Id="L4" Desc="error in" />
+						<Parameter Id="R0" Desc="VISA TCP listener out" />
+						<Parameter Id="R1" Desc="socket out" />
+						<Parameter Id="R4" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="@dd86ca6a28b747a9b5e585642ef9f95a" Direction="Input" Id="L0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@dd86ca6a28b747a9b5e585642ef9f95a" Direction="Output" Hotspot="50 5" Id="R0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@71d33f47c162455bbe982d174d94f05b" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<Wire Id="18557a4f266f4af2b6b859501da2e9eb" Joints="N(21be2541a8744cc0aec8567cb8cc1eba:R0)|(335,550) N(efbc36909e246dea693894b03a1e796:L0)|(370,550)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="8982ae29e551430eba7e7038092067f2" Joints="N(21be2541a8744cc0aec8567cb8cc1eba:R4)|(335,590) N(efbc36909e246dea693894b03a1e796:L4)|(370,590)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="635 460 50 50" Id="80d2a56c45d74ab4b261203bd0965056" ResolveFailedHint="&quot;C:\\Users\\Sam\\Documents\\LabVIEW Projects\\2020_02_23_16_46_08\\WebSockets.lvproject\\WebSockets API.gcomp\\WebSocket.gtype\\Handshake.gvi&quot;" Signature="@ed452fa61f854653a1814202eaca1432" Target="WebSockets::WebSocket.gtype::Handshake.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="webSockets in" />
+						<Parameter Id="L2" Desc="timeout ms" />
+						<Parameter Id="L4" Desc="error in" />
+						<Parameter Id="R0" Desc="webSockets out" />
+						<Parameter Id="R4" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="@ae10bdbab4ac4ecf82b1a9a7f1b84dc7" Direction="Input" Id="L0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@ae10bdbab4ac4ecf82b1a9a7f1b84dc7" Direction="Output" Hotspot="50 5" Id="R0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<MethodCall Bounds="750 535 50 50" Id="7a1a78cdd1bd4fe9873901843ebc7d7d" ResolveFailedHint="&quot;C:\\Users\\Sam\\Documents\\LabVIEW Projects\\2020_02_23_16_46_08\\WebSockets.lvproject\\WebSockets API.gcomp\\WebSocket.gtype\\Read Text.gvi&quot;" Signature="@1e843cf81aa844e38c9c1137dd55b561" Target="WebSockets::WebSocket.gtype::Read Text.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="webSocket in" />
+						<Parameter Id="L2" Desc="timeout ms" />
+						<Parameter Id="L4" Desc="error in" />
+						<Parameter Id="R0" Desc="webSocket out" />
+						<Parameter Id="R1" Desc="data" />
+						<Parameter Id="R4" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="@ae10bdbab4ac4ecf82b1a9a7f1b84dc7" Direction="Input" Id="L0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@ae10bdbab4ac4ecf82b1a9a7f1b84dc7" Direction="Output" Hotspot="50 5" Id="R0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<MethodCall Bounds="830 535 50 50" Id="d980f9d0f13f4cd286f30d881b92588a" ResolveFailedHint="&quot;C:\\Users\\Sam\\Documents\\LabVIEW Projects\\2020_02_23_16_46_08\\WebSockets.lvproject\\WebSockets API.gcomp\\WebSocket.gtype\\Write Text.gvi&quot;" Signature="@67175d3bcb794f14934e90066a700bbc" Target="WebSockets::WebSocket.gtype::Write Text.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="webSocket in" />
+						<Parameter Id="L1" Desc="string data" />
+						<Parameter Id="L2" Desc="timeout ms" />
+						<Parameter Id="L4" Desc="error in" />
+						<Parameter Id="R0" Desc="webSocket out" />
+						<Parameter Id="R4" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="@ae10bdbab4ac4ecf82b1a9a7f1b84dc7" Direction="Input" Id="L0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@ae10bdbab4ac4ecf82b1a9a7f1b84dc7" Direction="Output" Hotspot="50 5" Id="R0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<Wire Id="f6bcb73d3e944db094d574209981343a" Joints="N(7a1a78cdd1bd4fe9873901843ebc7d7d:R0)|(800,540) N(d980f9d0f13f4cd286f30d881b92588a:L0)|(830,540)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="4cb38d6ee4e14323bda1592ac0fd6fae" Joints="N(7a1a78cdd1bd4fe9873901843ebc7d7d:R1)|(800,550) N(d980f9d0f13f4cd286f30d881b92588a:L1)|(830,550)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="935 535 50 50" Id="c0bc469015ee47adb5a2ebf033e80c4a" ResolveFailedHint="&quot;C:\\Users\\Sam\\Documents\\LabVIEW Projects\\2020_02_23_16_46_08\\WebSockets.lvproject\\WebSockets API.gcomp\\WebSocket.gtype\\Close.gvi&quot;" Signature="@03acd2d64f414d5faa0aceafee9505f8" Target="WebSockets::WebSocket.gtype::Close.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="webSocket in" />
+						<Parameter Id="L2" Desc="timeout ms" />
+						<Parameter Id="L4" Desc="error in" />
+						<Parameter Id="R4" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="@33912800020749a4b8688a0fee03de60" Direction="Input" Id="L0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<Wire Id="e361fa53f11e4c5f949f6b662cb689b7" Joints="N(efbc36909e246dea693894b03a1e796:R1)|(420,560) h(20) v(-95) N(812ae140a8448b6ba85702f4f4363c4:L0)|(545,465)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="460 545 50 50" Id="84a9d682e5374477b2407e4f0148505b" ResolveFailedHint="&quot;C:\\Users\\Sam\\Documents\\LabVIEW Projects\\2020_02_23_16_46_08\\WebSockets.lvproject\\Sockets.gcomp\\VISA TCP Listener.gtype\\SubVIs\\Close.gvi&quot;" Signature="@b333bead5a4b4ceda8a4b7e01ad3b181" Target="Sockets::VISA TCP Listener.gtype::Close.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="VISA TCP listener in" />
+						<Parameter Id="L4" Desc="error in" />
+						<Parameter Id="R4" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="@dd86ca6a28b747a9b5e585642ef9f95a" Direction="Input" Id="L0" Usage="DynamicDispatch" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<Wire Id="8871fae4dbe8487aafec1c1928125c4c" Joints="N(efbc36909e246dea693894b03a1e796:R0)|(420,550) N(84a9d682e5374477b2407e4f0148505b:L0)|(460,550)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="4a4ba7d2dba44217bb14962040b11f11" Joints="N(efbc36909e246dea693894b03a1e796:R4)|(420,590) N(84a9d682e5374477b2407e4f0148505b:L4)|(460,590)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="aec1aa3c46e14c97bf59a23627bc42b8" Joints="N(812ae140a8448b6ba85702f4f4363c4:R0)|(595,465) N(80d2a56c45d74ab4b261203bd0965056:L0)|(635,465)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="8375e1896cf445d4b56e5f013f0feced" Joints="N(84a9d682e5374477b2407e4f0148505b:R4)|(510,590) h(16) v(-85) N(812ae140a8448b6ba85702f4f4363c4:L4)|(545,505)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="d1d7468858784395a7c70f718a2c477e" Joints="N(812ae140a8448b6ba85702f4f4363c4:R4)|(595,505) N(80d2a56c45d74ab4b261203bd0965056:L4)|(635,505)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="acaa844997624cd1815531ced603d659" Joints="N(80d2a56c45d74ab4b261203bd0965056:R4)|(685,505) h(30) v(75) N(7a1a78cdd1bd4fe9873901843ebc7d7d:L4)|(750,580)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="672dbd74a3af4f17bb39b00559ff1188" Joints="N(80d2a56c45d74ab4b261203bd0965056:R0)|(685,465) h(54) v(75) N(7a1a78cdd1bd4fe9873901843ebc7d7d:L0)|(750,540)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="465 265 85 15" DataType="String" Id="c0d2e425a46f43e6b07eac3b53786c4b" Label="7199610ed62e4cd68c709eb600b3628d" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>Hello world!</p.Data>
+				<StringBehavior TextDisplayMode="Default" />
+			</Literal>
+			<NodeLabel AttachedTo="c0d2e425a46f43e6b07eac3b53786c4b" Bounds="465 247 30 15" Id="7199610ed62e4cd68c709eb600b3628d" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Write Data</p.Text>
+			</NodeLabel>
+			<Wire Id="8af9ffcf536f4541a908d33eb2e72ad5" Joints="N(d980f9d0f13f4cd286f30d881b92588a:R0)|(880,540) N(c0bc469015ee47adb5a2ebf033e80c4a:L0)|(935,540)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="9e7988d29c784652b1371eff80ffbb4b" Joints="N(d980f9d0f13f4cd286f30d881b92588a:R4)|(880,580) N(c0bc469015ee47adb5a2ebf033e80c4a:L4)|(935,580)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MergeErrors Bounds="1075 455 30 20" Id="dafb9cafbecc4f2083edc7662b7b38cb" Terminals="c0t0v=ede6dff50bbf4504b675d7b3e7faa87f, c1t0v=192495d577c443db1e8706c38fd49fd" />
+			<Wire Id="ede6dff50bbf4504b675d7b3e7faa87f" Joints="N(97456c89c4cf4783bfedfb2b17d325e5:R4)|(1000,370) h(6) v(90) N(dafb9cafbecc4f2083edc7662b7b38cb:c0t0v)|(1075,460)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="192495d577c443db1e8706c38fd49fd" Joints="N(c0bc469015ee47adb5a2ebf033e80c4a:R4)|(985,580) h(20) v(-110) N(dafb9cafbecc4f2083edc7662b7b38cb:c1t0v)|(1075,470)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<NativeFrontPanel Background="[SMSolidColorBrush]#ffffffff" Height="[float]1600" HtmlPanel="[bool]False" Id="86fef89fec5b47a7b702920bd40e285b" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
+			<PanelExecutionWindow Id="cca8cef833704868b6d19bdc9e26c33e" />
+			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Enabled="[bool]True" Height="[float]136" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="9ef92b153fc647fcbc42060a5c311507" IsReadOnly="[bool]True" Label="[UIModel]f34c1f7ed38a4cc1a0c7390e9069f8c1" Left="[float]52" TabIndex="[int]0" Text="{DataItemBinding Id=41b4ee8bc49149d7986f22434b8450ba}" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]68" TypeToReplace="[bool]False" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]344" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="f34c1f7ed38a4cc1a0c7390e9069f8c1" LabelOwner="[UIModel]9ef92b153fc647fcbc42060a5c311507" Left="[float]52" Text="[string]Read Data" Top="[float]48" Width="[float]55" xmlns="http://www.ni.com/PanelCommon" />
+		</NativeFrontPanel>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="41b4ee8bc49149d7986f22434b8450ba" Name="Read Data" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="87623ae078744732841e20d796a03305">
+			<Attributed AttributedType="@53b1975a879a49c291a108487c4bb6ce">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]50" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]50" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="fe4d3a669d8847af8f63130e8a884693">
+			<Attributed AttributedType="@24c9f3a3f7224ce19911d9f88c3a0863">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebSockets" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="67175d3bcb794f14934e90066a700bbc">
+			<Attributed AttributedType="@d1d7b73f3ded4d3c956b347b156f6af0">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]50" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]50" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="1e843cf81aa844e38c9c1137dd55b561">
+			<Attributed AttributedType="@38d99a76085e48669e1bb6b8e00269ec">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]50" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]50" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="03acd2d64f414d5faa0aceafee9505f8">
+			<Attributed AttributedType="@ca5d63c9c24145b880d0b1a35c911d3b">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]50" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]50" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="33912800020749a4b8688a0fee03de60">
+			<Attributed AttributedType="@1ece3c2baadd4b839b399db4040cf23f">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebSockets" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="ed452fa61f854653a1814202eaca1432">
+			<Attributed AttributedType="@f1548c2a668b4714bb5336fe2e5f5ef6">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]50" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]50" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="a004c0e129f6474796973283a663f8c7">
+			<Attributed AttributedType="@1db1ff3317cc4b318109862b11ccf184">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]50" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]50" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="71d33f47c162455bbe982d174d94f05b">
+			<Attributed AttributedType="@3b2ed614fc1245f09a3002d4db3c75ee">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Sockets" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="ae10bdbab4ac4ecf82b1a9a7f1b84dc7">
+			<Attributed AttributedType="@54c8c54d6be2490792d5308fba801c2d">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebSockets" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="0e6ee8814700437c97971c8ee003b3a0">
+			<Attributed AttributedType="@cd9ac89c907646e3bab91b3ddaa7fc5e">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]50" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]50" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="dd86ca6a28b747a9b5e585642ef9f95a">
+			<Attributed AttributedType="@d5d2fea190564a628642b66e8d7d280f">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Sockets" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="6e0d72bd4ff24b4186a5475e3acbf12b">
+			<Attributed AttributedType="@3a23d6af5f5846359284685e7c9d09dc">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]50" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]50" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="3e29044d070943dd96face0e4dd08019">
+			<Attributed AttributedType="@6bcf4869e18a4500878a61ef31cfe365">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]50" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]50" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="b333bead5a4b4ceda8a4b7e01ad3b181">
+			<Attributed AttributedType="@19ca8dd8e4fb4a28aec43653f8bac4b0">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]50" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]50" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="53b1975a879a49c291a108487c4bb6ce">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="New Client.gvi" ReturnType="Void" DeclaringType="@fe4d3a669d8847af8f63130e8a884693" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@d9dddc5478864909b2be3e048b3375b0">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]webSocket URL" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@21b59e335b3544119bfab57c19b72cc4">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]timeout ms" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@71734e09f32b41b4824be778a34d0312">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@3c6548537dd642029fd3b51fd74b996b">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]webSocket client out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@20e507c160be473e90d8aac5cd45a011">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="24c9f3a3f7224ce19911d9f88c3a0863">
+			<Composite Id="1" Name="WebSocket Client.gtype">
+				<MemberScopes>
+					<Access Scope="Private" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+				</MemberScopes>
+				<GenericTypeDefinition>Void</GenericTypeDefinition>
+				<BaseType>@33912800020749a4b8688a0fee03de60</BaseType>
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="URL" DataType="String" />
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Add Client Protocol Header.gvi" ReturnType="Void" DeclaringType="@fe4d3a669d8847af8f63130e8a884693" GenericTypeDefinition="Void" />
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="GenerateWebSocketClientKey.gvi" ReturnType="Void" DeclaringType="@fe4d3a669d8847af8f63130e8a884693" GenericTypeDefinition="Void" />
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Handshake.gvi" ReturnType="Void" DeclaringType="@fe4d3a669d8847af8f63130e8a884693" GenericTypeDefinition="Void" />
+					<Function Id="5" IsStatic="False" IsConstructor="False" Name="New Client from Socket.gvi" ReturnType="Void" DeclaringType="@fe4d3a669d8847af8f63130e8a884693" GenericTypeDefinition="Void" />
+					<Function Id="6" IsStatic="False" IsConstructor="False" Name="New Client.gvi" ReturnType="Void" DeclaringType="@fe4d3a669d8847af8f63130e8a884693" GenericTypeDefinition="Void" />
+					<Function Id="7" IsStatic="False" IsConstructor="False" Name="Parse URL.gvi" ReturnType="Void" DeclaringType="@fe4d3a669d8847af8f63130e8a884693" GenericTypeDefinition="Void" />
+					<Function Id="8" IsStatic="False" IsConstructor="False" Name="Read Is Server.gvi" ReturnType="Void" DeclaringType="@fe4d3a669d8847af8f63130e8a884693" GenericTypeDefinition="Void" />
+					<Function Id="9" IsStatic="False" IsConstructor="False" Name="Read URL.gvi" ReturnType="Void" DeclaringType="@fe4d3a669d8847af8f63130e8a884693" GenericTypeDefinition="Void" />
+					<Function Id="10" IsStatic="False" IsConstructor="False" Name="Write URL.gvi" ReturnType="Void" DeclaringType="@fe4d3a669d8847af8f63130e8a884693" GenericTypeDefinition="Void" />
+					<Property Name="Is Server" Getter="Read Is Server.gvi" DataType="Boolean" />
+					<Property Name="URL" Getter="Read URL.gvi" Setter="Write URL.gvi" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="d1d7b73f3ded4d3c956b347b156f6af0">
+			<Function Id="1" IsStatic="False" IsConstructor="False" Name="Write Text.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@a0fe066f96674df3b7259982b04c990c">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]webSocket in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@f893ff9c0132437e8eca889b4a005ab6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]string data" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@21b59e335b3544119bfab57c19b72cc4">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]timeout ms" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@71734e09f32b41b4824be778a34d0312">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@9390f5b8c88c4d0da97ddfa23543ca71">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]webSocket out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@20e507c160be473e90d8aac5cd45a011">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="38d99a76085e48669e1bb6b8e00269ec">
+			<Function Id="1" IsStatic="False" IsConstructor="False" Name="Read Text.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@a0fe066f96674df3b7259982b04c990c">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]webSocket in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@21b59e335b3544119bfab57c19b72cc4">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]timeout ms" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@71734e09f32b41b4824be778a34d0312">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@9390f5b8c88c4d0da97ddfa23543ca71">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]webSocket out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@27114e2a9de7469ca38d6bef2c8e27dd">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]data" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@20e507c160be473e90d8aac5cd45a011">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="ca5d63c9c24145b880d0b1a35c911d3b">
+			<Function Id="1" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@a0fe066f96674df3b7259982b04c990c">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]webSocket in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@21b59e335b3544119bfab57c19b72cc4">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]timeout ms" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@71734e09f32b41b4824be778a34d0312">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@20e507c160be473e90d8aac5cd45a011">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="1ece3c2baadd4b839b399db4040cf23f">
+			<Composite Id="1" Name="WebSocket.gtype">
+				<MemberScopes>
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Protected" />
+					<Access Scope="Protected" />
+					<Access Scope="Protected" />
+					<Access Scope="Public" />
+					<Access Scope="Protected" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Protected" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Protected" />
+					<Access Scope="Protected" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Protected" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Protected" />
+					<Access Scope="Protected" />
+					<Access Scope="Protected" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Protected" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+				</MemberScopes>
+				<GenericTypeDefinition>Void</GenericTypeDefinition>
+				<BaseType>@07f071015808433da381d3cb1564379a</BaseType>
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Socket" DataType="@71d33f47c162455bbe982d174d94f05b" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Send Headers" DataType="@bd2232353db34e3ebe062acdcac878ce" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Return Headers" DataType="@bd2232353db34e3ebe062acdcac878ce" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Protocols" DataType="String[]" />
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Calculate Timeout.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Close Frame.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="5" IsStatic="False" IsConstructor="False" Name="DataLengthBytes.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="6" IsStatic="False" IsConstructor="False" Name="DecodeMaskedBytes.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="7" IsStatic="False" IsConstructor="False" Name="EncodeMaskedBytes.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="8" IsStatic="False" IsConstructor="False" Name="Handshake.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="9" IsStatic="False" IsConstructor="False" Name="HandshakeResponse.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="10" IsStatic="False" IsConstructor="False" Name="Internal Read.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="11" IsStatic="False" IsConstructor="False" Name="Low-Level Read.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="12" IsStatic="False" IsConstructor="False" Name="Low-Level Write.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="13" IsStatic="False" IsConstructor="False" Name="Parse HTTP Header Line.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="14" IsStatic="False" IsConstructor="False" Name="Ping.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="15" IsStatic="False" IsConstructor="False" Name="Pong.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="16" IsStatic="False" IsConstructor="False" Name="ProcessHandshakeRequest.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="17" IsStatic="False" IsConstructor="False" Name="ProduceAcceptKey.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="18" IsStatic="False" IsConstructor="False" Name="Read Binary.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="19" IsStatic="False" IsConstructor="False" Name="Read Is Server.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="20" IsStatic="False" IsConstructor="False" Name="Read Protocols.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="21" IsStatic="False" IsConstructor="False" Name="Read Return Header.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="22" IsStatic="False" IsConstructor="False" Name="Read Return Headers.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="23" IsStatic="False" IsConstructor="False" Name="Read Send Header String.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="24" IsStatic="False" IsConstructor="False" Name="Read Socket.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="25" IsStatic="False" IsConstructor="False" Name="Read Text.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="26" IsStatic="False" IsConstructor="False" Name="ReadHTTPHeader.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="27" IsStatic="False" IsConstructor="False" Name="SHA-1 Core.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="28" IsStatic="False" IsConstructor="False" Name="SHA-1 Digest.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="29" IsStatic="False" IsConstructor="False" Name="SHA-1 Pad.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="30" IsStatic="False" IsConstructor="False" Name="SHA-1 Test.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="31" IsStatic="False" IsConstructor="False" Name="SHA-1.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="32" IsStatic="False" IsConstructor="False" Name="Set Return Header.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="33" IsStatic="False" IsConstructor="False" Name="Set Send Header.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="34" IsStatic="False" IsConstructor="False" Name="Socket Read.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="35" IsStatic="False" IsConstructor="False" Name="Socket Write.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="36" IsStatic="False" IsConstructor="False" Name="SplitHTTPHeaders.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="37" IsStatic="False" IsConstructor="False" Name="Tick Count with Error Wires.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="38" IsStatic="False" IsConstructor="False" Name="Util Convert From Base64 and Store.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="39" IsStatic="False" IsConstructor="False" Name="Util Convert From Base64.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="40" IsStatic="False" IsConstructor="False" Name="Util Convert to Base64.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="41" IsStatic="False" IsConstructor="False" Name="Validate Supported Protocols.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="42" IsStatic="False" IsConstructor="False" Name="Write Binary.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="43" IsStatic="False" IsConstructor="False" Name="Write Protocols.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="44" IsStatic="False" IsConstructor="False" Name="Write Return Headers.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="45" IsStatic="False" IsConstructor="False" Name="Write Send Headers.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="46" IsStatic="False" IsConstructor="False" Name="Write Socket.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Function Id="47" IsStatic="False" IsConstructor="False" Name="Write Text.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void" />
+					<Property Name="Is Server" Getter="Read Is Server.gvi" DataType="Boolean" />
+					<Property Name="Protocols" Getter="Read Protocols.gvi" Setter="Write Protocols.gvi" DataType="String[]" />
+					<Property Name="Return Headers" Getter="Read Return Headers.gvi" Setter="Write Return Headers.gvi" DataType="@bd2232353db34e3ebe062acdcac878ce" />
+					<Property Name="Send Header String" Getter="Read Send Header String.gvi" DataType="String" />
+					<Property Name="Send Headers" Setter="Write Send Headers.gvi" DataType="@73e58f8a1bec4424b7eb837d7005e826" />
+					<Property Name="Socket" Getter="Read Socket.gvi" Setter="Write Socket.gvi" DataType="@71d33f47c162455bbe982d174d94f05b" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="f1548c2a668b4714bb5336fe2e5f5ef6">
+			<Function Id="1" IsStatic="False" IsConstructor="False" Name="Handshake.gvi" ReturnType="Void" DeclaringType="@33912800020749a4b8688a0fee03de60" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@a0fe066f96674df3b7259982b04c990c">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]webSockets in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@21b59e335b3544119bfab57c19b72cc4">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]timeout ms" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@71734e09f32b41b4824be778a34d0312">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@9390f5b8c88c4d0da97ddfa23543ca71">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]webSockets out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@20e507c160be473e90d8aac5cd45a011">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="1db1ff3317cc4b318109862b11ccf184">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="New Server from Socket.gvi" ReturnType="Void" DeclaringType="@ae10bdbab4ac4ecf82b1a9a7f1b84dc7" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@c407429c883a4bd5af215e1547e04b11">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]socket" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@71734e09f32b41b4824be778a34d0312">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@1e3cc049586c48c3a140cf4885e7eb37">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]webSocket server out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@20e507c160be473e90d8aac5cd45a011">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="3b2ed614fc1245f09a3002d4db3c75ee">
+			<Composite Id="1" Name="Socket.gtype" GenericTypeDefinition="Void" BaseType="@07f071015808433da381d3cb1564379a">
+				<Members>
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void" DeclaringType="@71d33f47c162455bbe982d174d94f05b" GenericTypeDefinition="Void" />
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Read.gvi" ReturnType="Void" DeclaringType="@71d33f47c162455bbe982d174d94f05b" GenericTypeDefinition="Void" />
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Write.gvi" ReturnType="Void" DeclaringType="@71d33f47c162455bbe982d174d94f05b" GenericTypeDefinition="Void" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="54c8c54d6be2490792d5308fba801c2d">
+			<Composite Id="1" Name="WebSocket Server.gtype">
+				<MemberScopes>
+					<Access Scope="Private" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Protected" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+				</MemberScopes>
+				<GenericTypeDefinition>Void</GenericTypeDefinition>
+				<BaseType>@33912800020749a4b8688a0fee03de60</BaseType>
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Request URI" DataType="String" />
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Handshake.gvi" ReturnType="Void" DeclaringType="@ae10bdbab4ac4ecf82b1a9a7f1b84dc7" GenericTypeDefinition="Void" />
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="New Server from Socket.gvi" ReturnType="Void" DeclaringType="@ae10bdbab4ac4ecf82b1a9a7f1b84dc7" GenericTypeDefinition="Void" />
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Parse HTTP Header Line.gvi" ReturnType="Void" DeclaringType="@ae10bdbab4ac4ecf82b1a9a7f1b84dc7" GenericTypeDefinition="Void" />
+					<Function Id="5" IsStatic="False" IsConstructor="False" Name="Read Is Server.gvi" ReturnType="Void" DeclaringType="@ae10bdbab4ac4ecf82b1a9a7f1b84dc7" GenericTypeDefinition="Void" />
+					<Function Id="6" IsStatic="False" IsConstructor="False" Name="Read Request URI.gvi" ReturnType="Void" DeclaringType="@ae10bdbab4ac4ecf82b1a9a7f1b84dc7" GenericTypeDefinition="Void" />
+					<Property Name="Is Server" Getter="Read Is Server.gvi" DataType="Boolean" />
+					<Property Name="Request URI" Getter="Read Request URI.gvi" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="cd9ac89c907646e3bab91b3ddaa7fc5e">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="New VISA TCP Listener.gvi" ReturnType="Void" DeclaringType="@dd86ca6a28b747a9b5e585642ef9f95a" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@71734e09f32b41b4824be778a34d0312">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@4013b0b58e8846f6927113a9c749f48a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]VISA TCP listener out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@20e507c160be473e90d8aac5cd45a011">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="d5d2fea190564a628642b66e8d7d280f">
+			<Composite Id="1" Name="VISA TCP Listener.gtype">
+				<MemberScopes>
+					<Access Scope="Private" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+				</MemberScopes>
+				<GenericTypeDefinition>Void</GenericTypeDefinition>
+				<BaseType>@510c850519b74e1cba6d37a15f76343a</BaseType>
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Listener ID" DataType="@5d83544c89e84c18b98e53e40ab66efb" />
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void" DeclaringType="@dd86ca6a28b747a9b5e585642ef9f95a" GenericTypeDefinition="Void" />
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Create Listener.gvi" ReturnType="Void" DeclaringType="@dd86ca6a28b747a9b5e585642ef9f95a" GenericTypeDefinition="Void" />
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="New VISA TCP Listener.gvi" ReturnType="Void" DeclaringType="@dd86ca6a28b747a9b5e585642ef9f95a" GenericTypeDefinition="Void" />
+					<Function Id="5" IsStatic="False" IsConstructor="False" Name="Wait on Listener.gvi" ReturnType="Void" DeclaringType="@dd86ca6a28b747a9b5e585642ef9f95a" GenericTypeDefinition="Void" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="3a23d6af5f5846359284685e7c9d09dc">
+			<Function Id="1" IsStatic="False" IsConstructor="False" Name="Create Listener.gvi" ReturnType="Void" DeclaringType="@dd86ca6a28b747a9b5e585642ef9f95a" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@f16fe204628849c4ae48c84f0b56c0bb">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]VISA TCP listener in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@ff4929c30db4445cb3ec5be0f7093877">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]port" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@21b59e335b3544119bfab57c19b72cc4">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]timeout ms" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@71734e09f32b41b4824be778a34d0312">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@eaa9456cfd7045ae80ac9fea30b475f9">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]VISA TCP listener out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@20e507c160be473e90d8aac5cd45a011">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="6bcf4869e18a4500878a61ef31cfe365">
+			<Function Id="1" IsStatic="False" IsConstructor="False" Name="Wait on Listener.gvi" ReturnType="Void" DeclaringType="@dd86ca6a28b747a9b5e585642ef9f95a" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@f16fe204628849c4ae48c84f0b56c0bb">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]VISA TCP listener in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@21b59e335b3544119bfab57c19b72cc4">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]timeout ms" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@71734e09f32b41b4824be778a34d0312">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@eaa9456cfd7045ae80ac9fea30b475f9">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]VISA TCP listener out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@7d10adec07b046c0aba2a485a8cc4898">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]socket out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@20e507c160be473e90d8aac5cd45a011">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="19ca8dd8e4fb4a28aec43653f8bac4b0">
+			<Function Id="1" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void" DeclaringType="@dd86ca6a28b747a9b5e585642ef9f95a" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@f16fe204628849c4ae48c84f0b56c0bb">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]VISA TCP listener in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@71734e09f32b41b4824be778a34d0312">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@20e507c160be473e90d8aac5cd45a011">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="d9dddc5478864909b2be3e048b3375b0">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="21b59e335b3544119bfab57c19b72cc4">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="Int32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="71734e09f32b41b4824be778a34d0312">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L4" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="3c6548537dd642029fd3b51fd74b996b">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@fe4d3a669d8847af8f63130e8a884693" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="20e507c160be473e90d8aac5cd45a011">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R4" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="a0fe066f96674df3b7259982b04c990c">
+			<Parameter InputParameterPassingRule="DynamicDispatch" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@33912800020749a4b8688a0fee03de60" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="f893ff9c0132437e8eca889b4a005ab6">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="9390f5b8c88c4d0da97ddfa23543ca71">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="DynamicDispatch" Name="R0" DataType="@33912800020749a4b8688a0fee03de60" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="27114e2a9de7469ca38d6bef2c8e27dd">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="07f071015808433da381d3cb1564379a">
+			<Composite Id="1" Name="gObject" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="bd2232353db34e3ebe062acdcac878ce">
+			<Composite Id="1" Name="Variant" Sealed="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="73e58f8a1bec4424b7eb837d7005e826">
+			<VariableArray DereferenceType="@755257a144e3424584d46e191e5129b2" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="c407429c883a4bd5af215e1547e04b11">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@71d33f47c162455bbe982d174d94f05b" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="1e3cc049586c48c3a140cf4885e7eb37">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@ae10bdbab4ac4ecf82b1a9a7f1b84dc7" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="4013b0b58e8846f6927113a9c749f48a">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@dd86ca6a28b747a9b5e585642ef9f95a" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="510c850519b74e1cba6d37a15f76343a">
+			<Attributed AttributedType="@c53083f4ff42453a9d467214abfd8750">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Sockets" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="5d83544c89e84c18b98e53e40ab66efb">
+			<Attributed AttributedType="@aecbd12bc3834f87bb3a72b2808b161b">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="f16fe204628849c4ae48c84f0b56c0bb">
+			<Parameter InputParameterPassingRule="DynamicDispatch" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@dd86ca6a28b747a9b5e585642ef9f95a" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="ff4929c30db4445cb3ec5be0f7093877">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="UInt16" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="eaa9456cfd7045ae80ac9fea30b475f9">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="DynamicDispatch" Name="R0" DataType="@dd86ca6a28b747a9b5e585642ef9f95a" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="7d10adec07b046c0aba2a485a8cc4898">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="@71d33f47c162455bbe982d174d94f05b" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="755257a144e3424584d46e191e5129b2">
+			<Attributed AttributedType="@f4e364d970ca48949b31b2cab25d42e3">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebSockets" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="c53083f4ff42453a9d467214abfd8750">
+			<Composite Id="1" Name="Socket Listener.gtype" GenericTypeDefinition="Void" BaseType="@07f071015808433da381d3cb1564379a">
+				<Members>
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void" DeclaringType="@510c850519b74e1cba6d37a15f76343a" GenericTypeDefinition="Void" />
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Create Listener.gvi" ReturnType="Void" DeclaringType="@510c850519b74e1cba6d37a15f76343a" GenericTypeDefinition="Void" />
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Wait on Listener.gvi" ReturnType="Void" DeclaringType="@510c850519b74e1cba6d37a15f76343a" GenericTypeDefinition="Void" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="aecbd12bc3834f87bb3a72b2808b161b">
+			<Composite Id="1" Name="TcpNetworkConnectionRefnum" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="f4e364d970ca48949b31b2cab25d42e3">
+			<Typedef TypedefName="Headers.gtype" UnderlyingType="@ae60ca2ed0584a7da1b592a7b2f695ef" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="ae60ca2ed0584a7da1b592a7b2f695ef">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Name" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Value" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+	<IconTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.IconModel Target="WebSockets::WebSocket Client.gtype::New Client.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 50 50">
+						<IconPanel Height="[float]50" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]50">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]10" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEqSURBVEhLzZKBccQgDATpiZ7oST3Rk3PiZJkn6MH5eJIdjXOSzmfCfJJDHqrHo2tKKkoVqaZ1d8LWqx/2W86BtchCYus1NItFu2Oo682ZrW9TqQXVRle0Hr/5gPlO7ROfR23KFfdg6bndRpZcpFyO4GWKaKsax8y14AOY8siIzqJfIm716ufUwFsK1RqtVVoihEAXsfUnhWhksRDNu9AafD8o/YUgzqtI/ZVcFC/qGY7H+B/R7V+847e/MX5pHr15jXumlsXozVyw6wOMtmaDhVUPedLMpoE5YpYOS5zVgrUD8IztuXVesvHxM4vR/eQ9Wybi0ZvcsN7lL6Jfr1ifxCek1wPxokHhTxLNB+LF+eYgqIfnlHgxC3KWuSDcfY8mw5DtlHe7jziOL/iK+wF58ghyAAAAAElFTkSuQmCC" Top="[float]10" Width="[float]30" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]WebSockets API.gcomp" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]WebSocket.gtype" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]WebSocket Client.gtype" Top="[float]0" Width="[float]50" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="WebSockets::WebSocket.gtype::Write Text.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 50 50">
+						<IconPanel Height="[float]50" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]50">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]10" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEgSURBVEhL3ZCBjQMhDATpiZ7cEz3RwtXCL+zh8xscKfk76f9HDlkv9iYilVYeqoejU7p+gBoncVpnCLWa/sq6pVacUoUOS/U1Nq+25jV/NiO0NkZnnEBHCVt1Vq3OKfCptaFnItLzaJOIFPk2uouwp/W7wIfReUQLdBnRA46Sc2GibSj6F+KkpiJ4F/S9JCc8OP73GPqsTHQvpCMUoiA9/zz6OI6US6+eiKfpOuOlxU+/Vf3VnqI9xv+Itk9EPZ6tE5mnMotk6ee0O6PWCod37b6epF9P0wnVlp01E22rIvJXNu7riK1P2Cq+v5HfEI3BN/9GPO6y7owGNo7aOmB1DIEN3JrqVQQEl+uy6lUExJfc1H3XktUxBPYd/MXo1r4AyKfbIdeOvRwAAAAASUVORK5CYII=" Top="[float]10" Width="[float]30" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]WebSockets API.gcomp" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]WebSocket.gtype" Top="[float]0" Width="[float]50" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="WebSockets::WebSocket.gtype::Read Text.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 50 50">
+						<IconPanel Height="[float]50" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]50">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]10" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAElSURBVEhL3ZDRccQgDETpiZ7UEz3RgmshKxbLsoCPS+yZJG9kbrWW9jyk0spL9XJ0StcfUOMkQdsMoTYzvvJuqRWnVKHDMn2Nna+W5jU/mh5aG6MzTmCjhK05szZnCDy1NvRMRHrubRKRIrfRVYQ/va8CD6Nzjxbo0qM7HCVj4cTardAfxElNRXAv6LUkJ1w4vrsPfa9ctBbSEQpRkJ5/Hn0cR8pFSxNxNaozblri9Eelt/YW7TX+TfS4qfOuRnNvvQZsA+toL8KmJt0HvPCsrBPfmvZi9j0ra7MPoA225lN4VtZ9AScxx0S3FZqBtfsIvyEagx9+xn48ZD0ZDXwctXfA7Dg2NghrpmexYfNyXjY9iw37l9y0/dCS2XFs7Cf4i9GtfQG7F9shssbZdAAAAABJRU5ErkJggg==" Top="[float]10" Width="[float]30" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]WebSockets API.gcomp" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]WebSocket.gtype" Top="[float]0" Width="[float]50" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="WebSockets::WebSocket.gtype::Close.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 50 50">
+						<IconPanel Height="[float]50" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]50">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]10" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD4SURBVEhL7ZLrEcMgDIPZiZ28k3dihcxCBUoc49Dc9ZF/fEepZBS1xyVp1YfWw9UpnT9AjZ0EbRlCbcN45KdaCnYpwgmX6TN2HE2HZ343vbRUVmfswKKE1iZXbZNd4FNKhWcj2nO3SURUhuiswu9+3gQ+rM69WqC1V3cYJfsDB2bfivaFOilJBfcC35bkhAvH/+6h75arbgvtKIVQtOffq7dtS1nbao24mqYzblpi+qPVbu0p6mOs6sCqDsRq/0aGV9MfAVoQtBEf9sJHb45AsOQu4a1pL6baGLyPegvCkXFNGnGEkOWogbdeg6klg/kvqzqwqgdqfQG9rAcE55BWlAAAAABJRU5ErkJggg==" Top="[float]10" Width="[float]30" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]WebSockets API.gcomp" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]WebSocket.gtype" Top="[float]0" Width="[float]50" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="WebSockets::WebSocket.gtype::Handshake.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 50 50">
+						<IconPanel Height="[float]50" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]50">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]10" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEqSURBVEhL3ZDRccMwDEO1k3biTtpJK3gWFRRsmKbV9trGH807hQFgGsmptNEeOg9Xl3L+ADUmSVo7hFphfhTT1jumdWPCI32uHY+W4bm/m1naB6srJtAqoVVy10p2gU/vA56NaK/TFjNrdlldVcQZcxf4sLrOaoNus3rCVbK/cCD7qfAv1FkvzXAv8H6sFlw4/vdc+t0J1X7QjlKIhvb69+pt20ptfrwRV+O64qYtb//o+K09xXiM96jWFUWxDDkJw0ROtRfFXccZRSRH/uoBrfI4o40ikqO0jSkUSiSbyNHXL98tYZhYpy/hDar3m1tdK8Uy5CQMyWnyg1VLCpNNXCJ/9VpEaJVzKgHJkuwBl7QqK2LoG0FEzshfmshG8a0lDMnFvJb/WD3GB2E5X50JZEFVAAAAAElFTkSuQmCC" Top="[float]10" Width="[float]30" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]WebSockets API.gcomp" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]WebSocket.gtype" Top="[float]0" Width="[float]50" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="WebSockets::WebSocket Server.gtype::New Server from Socket.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 50 50">
+						<IconPanel Height="[float]50" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]50">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]10" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEhSURBVEhLzZCBkcQgDAPTk3uiJ/dET3kZgY9zQiD5yfzveHwCC4Vj011fqpejt+3zAdcQxEfH/aq6I95NtEVGTzmOQ4V9X/anPpuaLbRFp9IzHaCaLjXwpXcTiGMi00WzKHZs1vtCxZSDMC1Z/bLooioqEMR91d3w5UiYtmvmhA9Ixn1RUiq543HxBewRSiIEbp2SRt+D4guwEK2ScGGr4HtQ9nBvsb/G/4guf/GOv/6O8Ufz6MVnXDOVLEYv5oJVH2B0XSwwsdolG8VcNaiOMVNHTTyrCXMH4B1LX7ovWfh4y2J0v3PNkol49CI3rHf5i+jvJ7ZOfIf0OjAeFCi8k9F+YDxoJ4OgDv2U8eAsyJnmguHsGE3CJpenXM1+xb7/ABNB7w0smFepAAAAAElFTkSuQmCC" Top="[float]10" Width="[float]30" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]WebSockets API.gcomp" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]WebSocket.gtype" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]WebSocket Server.gtype" Top="[float]0" Width="[float]50" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="Sockets::VISA TCP Listener.gtype::New VISA TCP Listener.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 50 50">
+						<IconPanel Height="[float]50" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]50">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]10" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEHSURBVEhL3ZFRDgMhCER7/xv0Tr3TVh0cWQTFNPvTF+M+Bkq36evzrqegheUc4oYAXcIlkUdv6JtHh/rWB9wSefQPUNySt+6aEFLdRBCWPExMC6VmtORxF5Y8TCDE7YoP85ysncMQKYdNrhMcJroFTFjLYZ6DdQ4BSCQfFrguZ4nCWg7rwE3CGQowIYTlY1yPcbC6vcfJvDxj+Mu4Ovlbc0NtF1Yn9xaycwWsliLBZrS+ZKcNixdkImY7IRu9s2E/UcA7tjv1viDx5X0XVutkTWoIcHWSg9FT/mz1/d+rN2ACtBviRgPCG0S5IW70TxqBm9slbniLyHZvIezNq4EJUbqsej9xXV9ttf5WeCPRkwAAAABJRU5ErkJggg==" Top="[float]10" Width="[float]30" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]Sockets.gcomp" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Socket Listener.gtype" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VISA TCP Listener.gtype" Top="[float]0" Width="[float]50" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="Sockets::VISA TCP Listener.gtype::Create Listener.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 50 50">
+						<IconPanel Height="[float]50" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]50">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]10" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADLSURBVEhL7ZLLFcQgDAO3/w62p+2JtSMjK+Zz48Y8Hoxkwimf39eXocI4ltghQCM8mjj6QHcuLXXXBV5NHP0DyjRy12kpIe6lgjBysSkjRCVHcbyFkYsNhEyn4WkzJ3vnZUjEtMG1wWKjI1BKj2kzB/seAtBEn7ZwjaOsSo9pHXhpeIcCSglhPEY7xn26cJ8u5NP6L8KNTVQ3inuMQ65uIrCoDV1LY9F2NNI3Qjfm91bRMCdsioD6DV3lmThsVgIi4jjBfbpwn37R2h8RrQRfqb4BogAAAABJRU5ErkJggg==" Top="[float]10" Width="[float]30" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]Sockets.gcomp" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Socket Listener.gtype" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VISA TCP Listener.gtype" Top="[float]0" Width="[float]50" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="Sockets::VISA TCP Listener.gtype::Wait on Listener.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 50 50">
+						<IconPanel Height="[float]50" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]50">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]10" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEZSURBVEhLtY4JcsQgDATz/x/sn/Inr/Dg0aADJ3t0Ubg1Apmf38dYhgrLHGKHAC3hM5mfq6E7l4a66wJLMj/XBUpZctduCCHDQwRhycUktFAq3pqfVVhyMYGQsjvdrXKydx6GzNItuSZYTLQFQjhKt8rBPocAJDN3a1zLLF04SrcLeEh4hgJCCGH5NY6vUY/WX9LPl7gzMRAGmvS6yR2iHiRTN3Ah711Z0jfSCBJySKZvNCO6PNM23ud+tL0rv5Gy4eZEmGU75Yx3/Hs0dsieV0arbPjDiRN6kA33J17GR+tD9HVg7+OoCPBCG+EOKaeYo9TQWE5MEx+X7nKIJqC4ZsRD6xQVowyN5QSAhwTQkRshhICl+CTH8QRuTHHjEKqGAwAAAABJRU5ErkJggg==" Top="[float]10" Width="[float]30" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]Sockets.gcomp" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Socket Listener.gtype" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VISA TCP Listener.gtype" Top="[float]0" Width="[float]50" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="Sockets::VISA TCP Listener.gtype::Close.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 50 50">
+						<IconPanel Height="[float]50" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]50">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]10" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADMSURBVEhL7ZLBEcQgDAOv/w6up+uJMyNHCOHwSn7sMMlKdnjl8/v2E6gwriWeEKARnk2+roE+ebTUpx4wNfm6PqCUkU+dWgnpbhWEkYeNjRCVMcrXLIw8bCCknKYPq5zsncuQjMMW1waHjY6AlT0OqxzsewhAk/2wG9e4yl3Z47ALuDXcoQArIYyv0V7jXG2cqw2/Wv9I+zV1FCAG5sQ/VtHVzSiwCHYbGukqpZMp66rGwEZk3SRexRL34IFG9aCMYArPcq42ztUTrf0BeYEuNRLgyr8AAAAASUVORK5CYII=" Top="[float]10" Width="[float]30" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]Sockets.gcomp" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Socket Listener.gtype" Top="[float]0" Width="[float]50" />
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VISA TCP Listener.gtype" Top="[float]0" Width="[float]50" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+	</IconTable>
+	<TypeAppearanceTable xmlns="http://www.ni.com/PlatformFramework" />
+</SourceFile>

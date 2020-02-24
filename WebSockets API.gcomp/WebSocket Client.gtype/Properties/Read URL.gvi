@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="CCC1C0C7C1AA761BEF6E105C52CD98A5CF1F2CB088C1DA06BF1EA1FBEF84229BD7EE8966D4FDD51CC944B1B5D016078391CAD2BD01EA9D8AF84C7176F1175391" Timestamp="1D5EA6090E73781" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW Conversion" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="4f9019cd2c6145ba9d20f9ffa1a5661d" InlineIntoCaller="True" Reentrancy="Stateful" xmlns="http://www.ni.com/LabVIEW.VI">
+		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;br/&gt;WebSockets 2.0.1.40&lt;br/&gt;Sam Sharp - MediaMongrels Ltd&lt;br/&gt;Copyright (c) 2019, MediaMongrels Ltd</p.UserDescription>
+		<Icon Id="23aa0311d3594d33b1bf35cf508d63b1" ListViewIconCrop="0 0 50 50" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]50" Id="2be7c654f76740579aa955cb3bddc6f5" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Id="f65a19a76f554393999f5f3ac218b301" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]50">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="93b66da604444c5a832d95de8a6f304d" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="fabaac477af6486eabda5cd91637a7c6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="1ce62fb04dc94ef59422ecdf9556e390" Left="[float]10" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEtSURBVEhL1ZSBrcMgDETZiZ3YyTuxU3pnE2OlQJP0R189WdX5sF8iFDXJJg/V4+iaEk2pIrV5nu2y1iuG8dRyqLVggag9oVka2icO1TdHY7FNpRaURh3N19c5qM3t3hPPZ23KFffQ6FlvI0suUvrEZNnM7JQer5lrwQOQ2isDnYVPMvmoV8zNQ96aoSeaVZQII/BF2vE3BTRYVkDbXbAOczeKXwhwXkXqn3BRdlHPaAt6T0yzfK2+4MsHyiz/qMHaGX9GnMbOcG2Wn1RfNsN+N/zdzQ21NSICJeJifkltifv6B6IdWcP8kgjhvrqWqVp+lwtxjZTR/iw/qfubH/UfaL8KM3o3VAzXuoAetgtNJ95ZphiudQE9bBdaTWDfEQejJ5SFQ63OvtQvorftBa6v4uakI3RGAAAAAElFTkSuQmCC" Top="[float]10" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="50" Id="f28861d8b3c4adb9df2961c9a6b7595" ListViewHeight="115" ListViewWidth="150" Width="50" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="f81e7fd251c64adbb6918eceacee8477" />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="50 5" ListViewHotspot="150 65" Parameter="959e1a05ebeb442ea77e780d81a3d402" />
+			<ConnectorPaneTerminal Hotspot="50 15" ListViewHotspot="150 80" Parameter="7d02b2f7c50142d780dec902d502d359" />
+			<ConnectorPaneTerminal Hotspot="50 25" />
+			<ConnectorPaneTerminal Hotspot="50 35" />
+			<ConnectorPaneTerminal Hotspot="15 50" />
+			<ConnectorPaneTerminal Hotspot="25 50" />
+			<ConnectorPaneTerminal Hotspot="0 45" ListViewHotspot="0 50" Parameter="cffffc83932a49a5bc8706d5cee4484e" />
+			<ConnectorPaneTerminal Hotspot="35 0" />
+			<ConnectorPaneTerminal Hotspot="50 45" ListViewHotspot="150 95" Parameter="c008dfa421c644fd8c7f0dfe9e7bcc29" />
+			<ConnectorPaneTerminal Hotspot="35 50" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="1bbb87294ba7410cb0982722cf9a90a0" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="91bdeb17b76949a994afdd0b566e92ed" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="a9612f06904a4079a468031251aa647e">
+			<DataAccessor Bounds="175 560 40 15" DataItem="cffffc83932a49a5bc8706d5cee4484e" Id="ccc56c6d49474119bd007b37bba8060f" Label="45db3382f3c64f98a52905e14174ed57" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="ccc56c6d49474119bd007b37bba8060f" Bounds="175 537 55 20" Id="45db3382f3c64f98a52905e14174ed57" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error in</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="720 560 40 15" DataItem="c008dfa421c644fd8c7f0dfe9e7bcc29" Id="ed6a23c12b34b519a3893004370c5e4" Label="6649b8a519524d2ba2e36b78a13ae6d1" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="ed6a23c12b34b519a3893004370c5e4" Bounds="720 537 70 20" Id="6649b8a519524d2ba2e36b78a13ae6d1" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error out</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="540 375 40 15" DataItem="959e1a05ebeb442ea77e780d81a3d402" Id="b6c852b9b602431192db0218302255ae" Label="d7d7f002acba482e8df93bba90d1739f" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@f37559c2b75e4c38a1f2c308aebf3a4b" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="b6c852b9b602431192db0218302255ae" Bounds="585 375 155 20" Id="d7d7f002acba482e8df93bba90d1739f" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>webSocket client out</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="145 375 40 15" DataItem="f81e7fd251c64adbb6918eceacee8477" Id="a73c432347e5467baf5ff6711f65c760" Label="ab4a68a0ab8f41e6afefc05b0fec010c" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@f37559c2b75e4c38a1f2c308aebf3a4b" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="a73c432347e5467baf5ff6711f65c760" Bounds="-5 375 145 20" Id="ab4a68a0ab8f41e6afefc05b0fec010c" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>webSocket client in</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="665 465 40 15" DataItem="7d02b2f7c50142d780dec902d502d359" Id="a8df457c24eb43f3b7f4e0d8931dc8ba" Label="d7af0b74371449cab05c6e72110ffe37" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="a8df457c24eb43f3b7f4e0d8931dc8ba" Bounds="710 465 30 20" Id="d7af0b74371449cab05c6e72110ffe37" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>URL</p.Text>
+			</NodeLabel>
+			<CaseStructure Bounds="280 340 390 225" DataType="Error" Id="cec4d7506a4140f5a0382be4b8320678" Selected="a4d7c773cb4144b4aeb902672f9483b5" UserSelectorBounds="0 0 0 0">
+				<CaseStructure.Case Bounds="5 5 380 215" Id="a4d7c773cb4144b4aeb902672f9483b5" Pattern="No Error">
+					<PropertyNode Bounds="45 115 75 35" HasErrorTerminals="False" Id="d219449db8d9428ea97530a94c5cec04" InstanceDataType="@f37559c2b75e4c38a1f2c308aebf3a4b" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+						<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+							<TypeDefinitionTarget TargetName="WebSockets::WebSocket Client.gtype" />
+						</p.TypeDefinitionTargets>
+						<PropertyItemTerminal DataType="String" Hotspot="75 15" Id="c0t0v" Path="URL" PathElementMemberKinds="Field" />
+					</PropertyNode>
+					<Wire Id="bce11cd1f0b84622919a7443fdd58ee4" Joints="N(d219449db8d9428ea97530a94c5cec04:c0t0v)|(120,130) h(251) v(-5) N(c0d3fa4c5991426e8fb7c1764d999ab1:a4d7c773cb4144b4aeb902672f9483b5)|(376,125)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="e06a719326134206a9195a392ed48e62" Joints="N(88d7cce54c8445c2b949de2b36c73ecd:a4d7c773cb4144b4aeb902672f9483b5)|(4,35) h(5) B(1) N(8d114b69c70946008d77411dbb56b1f2:a4d7c773cb4144b4aeb902672f9483b5)|(376,35) B(1) v(85) N(d219449db8d9428ea97530a94c5cec04:instance in)|(45,120)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="e1f0766e0421479a973636db4fe03f1d" Joints="N(60851f1b35ef4abf8dcbcf50f65c1bca:a4d7c773cb4144b4aeb902672f9483b5)|(4,210) N(e32d63b66bed4c0a97e0f3e40e47b398:a4d7c773cb4144b4aeb902672f9483b5)|(376,210)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 380 215" Id="9833510c44f54f93ab70baf4d5c00dc8" Pattern="Error">
+					<Wire Id="38d9172e5b1c4e878b99399a50257cde" Joints="N(60851f1b35ef4abf8dcbcf50f65c1bca:9833510c44f54f93ab70baf4d5c00dc8)|(4,210) N(e32d63b66bed4c0a97e0f3e40e47b398:9833510c44f54f93ab70baf4d5c00dc8)|(376,210)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="523b05004daf41d8ad5d6a128b235e06" Joints="N(88d7cce54c8445c2b949de2b36c73ecd:9833510c44f54f93ab70baf4d5c00dc8)|(4,35) N(8d114b69c70946008d77411dbb56b1f2:9833510c44f54f93ab70baf4d5c00dc8)|(376,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Selector Bounds="-4 210 13 10" Docking="Left" Id="60851f1b35ef4abf8dcbcf50f65c1bca" Terminals="cec4d7506a4140f5a0382be4b8320678=ad11920341b74cdab8147789b5d4fe98, a4d7c773cb4144b4aeb902672f9483b5=e1f0766e0421479a973636db4fe03f1d, 9833510c44f54f93ab70baf4d5c00dc8=38d9172e5b1c4e878b99399a50257cde" />
+				<CaseStructure.Tunnel Bounds="381 210 13 10" Docking="Right" Id="e32d63b66bed4c0a97e0f3e40e47b398" Terminals="cec4d7506a4140f5a0382be4b8320678=edeea0a3911a40a9b87c6704edeb2963, a4d7c773cb4144b4aeb902672f9483b5=e1f0766e0421479a973636db4fe03f1d, 9833510c44f54f93ab70baf4d5c00dc8=38d9172e5b1c4e878b99399a50257cde" />
+				<CaseStructure.Tunnel Bounds="381 35 13 10" Docking="Right" Id="8d114b69c70946008d77411dbb56b1f2" Terminals="cec4d7506a4140f5a0382be4b8320678=74fe79813d2d4a6ca7bb91aa66353c6e, a4d7c773cb4144b4aeb902672f9483b5=e06a719326134206a9195a392ed48e62, 9833510c44f54f93ab70baf4d5c00dc8=523b05004daf41d8ad5d6a128b235e06" />
+				<CaseStructure.Tunnel Bounds="-4 35 13 10" Docking="Left" Id="88d7cce54c8445c2b949de2b36c73ecd" Terminals="cec4d7506a4140f5a0382be4b8320678=5dc02f1ed20445f0864a53409a889c09, a4d7c773cb4144b4aeb902672f9483b5=e06a719326134206a9195a392ed48e62, 9833510c44f54f93ab70baf4d5c00dc8=523b05004daf41d8ad5d6a128b235e06" />
+				<CaseStructure.Tunnel Bounds="381 125 13 10" DefaultIfUnwired="True" Docking="Right" Id="c0d3fa4c5991426e8fb7c1764d999ab1" Terminals="cec4d7506a4140f5a0382be4b8320678=6110a24e8d814139b153ff5129191406, a4d7c773cb4144b4aeb902672f9483b5=bce11cd1f0b84622919a7443fdd58ee4, 9833510c44f54f93ab70baf4d5c00dc8" />
+			</CaseStructure>
+			<Wire Id="6110a24e8d814139b153ff5129191406" Joints="N(c0d3fa4c5991426e8fb7c1764d999ab1:cec4d7506a4140f5a0382be4b8320678)|(674,470) N(a8df457c24eb43f3b7f4e0d8931dc8ba:Value)|(668,470)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="74fe79813d2d4a6ca7bb91aa66353c6e" Joints="N(8d114b69c70946008d77411dbb56b1f2:cec4d7506a4140f5a0382be4b8320678)|(674,380) h(4) v(-9) h(-143) v(9) N(b6c852b9b602431192db0218302255ae:Value)|(543,380)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="5dc02f1ed20445f0864a53409a889c09" Joints="N(a73c432347e5467baf5ff6711f65c760:Value)|(185,380) N(88d7cce54c8445c2b949de2b36c73ecd:cec4d7506a4140f5a0382be4b8320678)|(276,380)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="edeea0a3911a40a9b87c6704edeb2963" Joints="N(e32d63b66bed4c0a97e0f3e40e47b398:cec4d7506a4140f5a0382be4b8320678)|(674,555) h(40) v(10) N(ed6a23c12b34b519a3893004370c5e4:Value)|(723,565)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="ad11920341b74cdab8147789b5d4fe98" Joints="N(ccc56c6d49474119bd007b37bba8060f:Value)|(215,565) h(56) v(-10) N(60851f1b35ef4abf8dcbcf50f65c1bca:cec4d7506a4140f5a0382be4b8320678)|(276,555)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<NativeFrontPanel AllowClose="[bool]True" AllowMinimize="[bool]True" Height="[float]1600" HtmlPanel="[bool]False" Id="fb21830e8f394b3780f694384bf33d54" Left="[float]0" PanelSizeMode="Fixed" ShowApplicationMenu="[bool]True" Top="[float]0" Width="[float]2000" WindowTitleOption="[WindowTitleOption]None">
+			<PanelExecutionWindow Id="fbc4ab3381ba434bb7f484bd3c53cbe0" />
+			<Cluster AutoArrange="[AutoArrange]None" BaseName="[null]" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Enabled="[bool]True" Height="[float]176" Id="58d2f8051f704be38e67120961f4bb4d" IsTabStop="[bool]True" Label="[UIModel]55a57973ea404d60bee1b2e952c8780f" Left="[float]103" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]0" Top="[float]344" Value="{DataItemBinding Id=cffffc83932a49a5bc8706d5cee4484e}" Width="[float]176" p4:ControlDefinitionChecksum="J+f/EiASvnzghyjtgi4nEE7z+0udh8Z1+KU2hWC1ppw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">"The &lt;B&gt;error in&lt;/B&gt; cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.\n\nThe pop-up option &lt;B&gt;Explain Error&lt;/B&gt; (or Explain Warning) gives more information about the error displayed. "</p.InfoTipDescription>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="3e4e405fa3a14662979919bc69a38f69" Label="[UIModel]648ae328d9e04ced8542ca60e5922889" Left="[float]3" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="648ae328d9e04ced8542ca60e5922889" LabelOwner="[UIModel]3e4e405fa3a14662979919bc69a38f69" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="d89bcedbc80a4b778435df41cab70e1c" Label="[UIModel]3ea95d9addd445cb8cdeac3f6edae4b0" Left="[float]54" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="3ea95d9addd445cb8cdeac3f6edae4b0" LabelOwner="[UIModel]d89bcedbc80a4b778435df41cab70e1c" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="33ed88d80d3b4db0840d5fd919c5fb26" Label="[UIModel]f4529a21dce54ba6bee06d132c56981f" Left="[float]3" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="f4529a21dce54ba6bee06d132c56981f" LabelOwner="[UIModel]33ed88d80d3b4db0840d5fd919c5fb26" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Label Id="55a57973ea404d60bee1b2e952c8780f" LabelOwner="[UIModel]58d2f8051f704be38e67120961f4bb4d" Left="[float]103" Text="[string]error in" Top="[float]324" xmlns="http://www.ni.com/PanelCommon" />
+			<Cluster AutoArrange="[AutoArrange]None" BaseName="[null]" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Enabled="[bool]True" Height="[float]176" Id="b016942324f4f02ab0daaa81b240bff" IsTabStop="[bool]True" Label="[UIModel]31f7d1fa819b417a9a8aa1746165e779" Left="[float]598" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]1" Top="[float]344" Value="{DataItemBinding Id=c008dfa421c644fd8c7f0dfe9e7bcc29}" Width="[float]176" p4:ControlDefinitionChecksum="J+f/EiASvnzghyjtgi4nEE7z+0udh8Z1+KU2hWC1ppw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">"The &lt;B&gt;error out&lt;/B&gt; cluster passes error or warning information out of a VI to be used by other VIs.\n\nThe pop-up option &lt;B&gt;Explain Error&lt;/B&gt; (or Explain Warning) gives more information about the error displayed."</p.InfoTipDescription>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="b5f473fee79c493b944df2073b6ed325" IsReadOnly="[bool]True" Label="[UIModel]a6c05935d9944bc9be09b87fa096fd9a" Left="[float]3" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="a6c05935d9944bc9be09b87fa096fd9a" LabelOwner="[UIModel]b5f473fee79c493b944df2073b6ed325" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="9ab035ca61f0482bb23ab207f8fd5179" IsReadOnly="[bool]True" Label="[UIModel]53f1e07e5af423b849851b06fb2cab8" Left="[float]54" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="53f1e07e5af423b849851b06fb2cab8" LabelOwner="[UIModel]9ab035ca61f0482bb23ab207f8fd5179" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="bedb0bcda37646139fbdd24c163bd996" IsReadOnly="[bool]True" Label="[UIModel]72d3f427abd7430fbed6d482415f4eeb" Left="[float]3" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="72d3f427abd7430fbed6d482415f4eeb" LabelOwner="[UIModel]bedb0bcda37646139fbdd24c163bd996" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Label Id="31f7d1fa819b417a9a8aa1746165e779" LabelOwner="[UIModel]b016942324f4f02ab0daaa81b240bff" Left="[float]598" Text="[string]error out" Top="[float]324" xmlns="http://www.ni.com/PanelCommon" />
+			<ValueClassControl BaseName="[string]WebSocket Client" Enabled="[bool]True" Height="[float]48" Id="5b428c5830c348caaef46da700dd751a" IsReadOnly="[bool]True" IsTabStop="[bool]False" Label="[UIModel]624b2d7783354d7aabd5f851d5f9cdf4" Left="[float]595" TabIndex="[int]2" Top="[float]30" Value="{DataItemBinding Id=959e1a05ebeb442ea77e780d81a3d402}" ValueClassControl="[Type]@f37559c2b75e4c38a1f2c308aebf3a4b" Width="[float]48" p4:ControlDefinitionChecksum="PKtEkKqJ7PPjuJGyd6N1lhRgoDFlMwGm1vpiw/XH6GQ=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="WebSockets::WebSocket Client.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+			</ValueClassControl>
+			<Label Id="624b2d7783354d7aabd5f851d5f9cdf4" LabelAlignment="[PartAlignment]RightTop" LabelOwner="[UIModel]5b428c5830c348caaef46da700dd751a" Left="[float]651" Text="[string]webSocket client out" Top="[float]30" xmlns="http://www.ni.com/PanelCommon" />
+			<ValueClassControl BaseName="[string]WebSocket Client" Enabled="[bool]True" Height="[float]48" Id="aaddf480ef7c4d2ca55f0f851a7776f5" IsReadOnly="[bool]False" IsTabStop="[bool]False" Label="[UIModel]17b943c3bf64243966d264b0b9d10f6" Left="[float]151" TabIndex="[int]3" Top="[float]30" Value="{DataItemBinding Id=f81e7fd251c64adbb6918eceacee8477}" ValueClassControl="[Type]@f37559c2b75e4c38a1f2c308aebf3a4b" Width="[float]48" p4:ControlDefinitionChecksum="PKtEkKqJ7PPjuJGyd6N1lhRgoDFlMwGm1vpiw/XH6GQ=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="WebSockets::WebSocket Client.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+			</ValueClassControl>
+			<Label Id="17b943c3bf64243966d264b0b9d10f6" LabelOwner="[UIModel]aaddf480ef7c4d2ca55f0f851a7776f5" Left="[float]151" Text="[string]webSocket client in" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+			<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="3c941d9c6bae4be9be16b98e33e5aa20" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]641361098a7547e0a9332abb36a11b94" Left="[float]595" TabIndex="[int]4" Text="{DataItemBinding Id=7d02b2f7c50142d780dec902d502d359}" TextAlignment="[TextAlignment]Left" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]121" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]100" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Id="641361098a7547e0a9332abb36a11b94" LabelOwner="[UIModel]3c941d9c6bae4be9be16b98e33e5aa20" Left="[float]595" Text="[string]URL" Top="[float]101" xmlns="http://www.ni.com/PanelCommon" />
+			<Menu Id="b737107c990f4da0b38b6333ce0b97cf" IsApplicationMenu="[bool]True" Left="[float]0" Top="[float]0" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+		</NativeFrontPanel>
+		<DataItem CallDirection="Input" CallIndex="2" DataType="Error" Id="cffffc83932a49a5bc8706d5cee4484e" Name="error in" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">"The &lt;B&gt;error in&lt;/B&gt; cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.&lt;br/&gt;&lt;br/&gt;The pop-up option &lt;B&gt;Explain Error&lt;/B&gt; (or Explain Warning) gives more information about the error displayed. "</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="3" DataType="Error" Id="c008dfa421c644fd8c7f0dfe9e7bcc29" Name="error out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">The &lt;B&gt;error out&lt;/B&gt; cluster passes error or warning information out of a VI to be used by other VIs.&lt;br/&gt;&lt;br/&gt;The pop-up option &lt;B&gt;Explain Error&lt;/B&gt; (or Explain Warning) gives more information about the error displayed.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="1" DataType="@f37559c2b75e4c38a1f2c308aebf3a4b" Id="959e1a05ebeb442ea77e780d81a3d402" Name="webSocket client out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="WebSockets::WebSocket Client.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="1" CallUsage="Required" DataType="@f37559c2b75e4c38a1f2c308aebf3a4b" Id="f81e7fd251c64adbb6918eceacee8477" Name="webSocket client in" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="WebSockets::WebSocket Client.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="2" DataType="String" Id="7d02b2f7c50142d780dec902d502d359" Name="URL" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="f37559c2b75e4c38a1f2c308aebf3a4b">
+			<Attributed AttributedType="@059eb77b62fa443dbf273a6722d9568e">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebSockets" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="059eb77b62fa443dbf273a6722d9568e">
+			<Composite Id="1" Name="WebSocket Client.gtype">
+				<MemberScopes>
+					<Access Scope="Private" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+				</MemberScopes>
+				<GenericTypeDefinition>Void</GenericTypeDefinition>
+				<BaseType>@5b47813043c74b78bcf92d32cfa023bd</BaseType>
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="URL" DataType="String" />
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Add Client Protocol Header.gvi" ReturnType="Void" DeclaringType="@f37559c2b75e4c38a1f2c308aebf3a4b" GenericTypeDefinition="Void" />
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="GenerateWebSocketClientKey.gvi" ReturnType="Void" DeclaringType="@f37559c2b75e4c38a1f2c308aebf3a4b" GenericTypeDefinition="Void" />
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Handshake.gvi" ReturnType="Void" DeclaringType="@f37559c2b75e4c38a1f2c308aebf3a4b" GenericTypeDefinition="Void" />
+					<Function Id="5" IsStatic="False" IsConstructor="False" Name="New Client from Socket.gvi" ReturnType="Void" DeclaringType="@f37559c2b75e4c38a1f2c308aebf3a4b" GenericTypeDefinition="Void" />
+					<Function Id="6" IsStatic="False" IsConstructor="False" Name="New Client.gvi" ReturnType="Void" DeclaringType="@f37559c2b75e4c38a1f2c308aebf3a4b" GenericTypeDefinition="Void" />
+					<Function Id="7" IsStatic="False" IsConstructor="False" Name="Parse URL.gvi" ReturnType="Void" DeclaringType="@f37559c2b75e4c38a1f2c308aebf3a4b" GenericTypeDefinition="Void" />
+					<Function Id="8" IsStatic="False" IsConstructor="False" Name="Read Is Server.gvi" ReturnType="Void" DeclaringType="@f37559c2b75e4c38a1f2c308aebf3a4b" GenericTypeDefinition="Void" />
+					<Function Id="9" IsStatic="False" IsConstructor="False" Name="Read URL.gvi" ReturnType="Void" DeclaringType="@f37559c2b75e4c38a1f2c308aebf3a4b" GenericTypeDefinition="Void" />
+					<Function Id="10" IsStatic="False" IsConstructor="False" Name="Write URL.gvi" ReturnType="Void" DeclaringType="@f37559c2b75e4c38a1f2c308aebf3a4b" GenericTypeDefinition="Void" />
+					<Property Name="Is Server" Getter="Read Is Server.gvi" DataType="Boolean" />
+					<Property Name="URL" Getter="Read URL.gvi" Setter="Write URL.gvi" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="5b47813043c74b78bcf92d32cfa023bd">
+			<Attributed AttributedType="@c72c2091d8684c319add9e9a484ba99b">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebSockets" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="c72c2091d8684c319add9e9a484ba99b">
+			<Composite Id="1" Name="WebSocket.gtype">
+				<MemberScopes>
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Protected" />
+					<Access Scope="Protected" />
+					<Access Scope="Protected" />
+					<Access Scope="Public" />
+					<Access Scope="Protected" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Protected" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Protected" />
+					<Access Scope="Protected" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Protected" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Protected" />
+					<Access Scope="Protected" />
+					<Access Scope="Protected" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Protected" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+				</MemberScopes>
+				<GenericTypeDefinition>Void</GenericTypeDefinition>
+				<BaseType>@07f071015808433da381d3cb1564379a</BaseType>
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Socket" DataType="@71d33f47c162455bbe982d174d94f05b" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Send Headers" DataType="@bd2232353db34e3ebe062acdcac878ce" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Return Headers" DataType="@bd2232353db34e3ebe062acdcac878ce" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Protocols" DataType="String[]" />
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Calculate Timeout.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Close Frame.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="5" IsStatic="False" IsConstructor="False" Name="DataLengthBytes.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="6" IsStatic="False" IsConstructor="False" Name="DecodeMaskedBytes.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="7" IsStatic="False" IsConstructor="False" Name="EncodeMaskedBytes.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="8" IsStatic="False" IsConstructor="False" Name="Handshake.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="9" IsStatic="False" IsConstructor="False" Name="HandshakeResponse.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="10" IsStatic="False" IsConstructor="False" Name="Internal Read.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="11" IsStatic="False" IsConstructor="False" Name="Low-Level Read.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="12" IsStatic="False" IsConstructor="False" Name="Low-Level Write.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="13" IsStatic="False" IsConstructor="False" Name="Parse HTTP Header Line.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="14" IsStatic="False" IsConstructor="False" Name="Ping.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="15" IsStatic="False" IsConstructor="False" Name="Pong.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="16" IsStatic="False" IsConstructor="False" Name="ProcessHandshakeRequest.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="17" IsStatic="False" IsConstructor="False" Name="ProduceAcceptKey.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="18" IsStatic="False" IsConstructor="False" Name="Read Binary.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="19" IsStatic="False" IsConstructor="False" Name="Read Is Server.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="20" IsStatic="False" IsConstructor="False" Name="Read Protocols.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="21" IsStatic="False" IsConstructor="False" Name="Read Return Header.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="22" IsStatic="False" IsConstructor="False" Name="Read Return Headers.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="23" IsStatic="False" IsConstructor="False" Name="Read Send Header String.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="24" IsStatic="False" IsConstructor="False" Name="Read Socket.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="25" IsStatic="False" IsConstructor="False" Name="Read Text.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="26" IsStatic="False" IsConstructor="False" Name="ReadHTTPHeader.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="27" IsStatic="False" IsConstructor="False" Name="SHA-1 Core.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="28" IsStatic="False" IsConstructor="False" Name="SHA-1 Digest.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="29" IsStatic="False" IsConstructor="False" Name="SHA-1 Pad.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="30" IsStatic="False" IsConstructor="False" Name="SHA-1 Test.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="31" IsStatic="False" IsConstructor="False" Name="SHA-1.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="32" IsStatic="False" IsConstructor="False" Name="Set Return Header.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="33" IsStatic="False" IsConstructor="False" Name="Set Send Header.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="34" IsStatic="False" IsConstructor="False" Name="Socket Read.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="35" IsStatic="False" IsConstructor="False" Name="Socket Write.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="36" IsStatic="False" IsConstructor="False" Name="SplitHTTPHeaders.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="37" IsStatic="False" IsConstructor="False" Name="Tick Count with Error Wires.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="38" IsStatic="False" IsConstructor="False" Name="Util Convert From Base64 and Store.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="39" IsStatic="False" IsConstructor="False" Name="Util Convert From Base64.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="40" IsStatic="False" IsConstructor="False" Name="Util Convert to Base64.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="41" IsStatic="False" IsConstructor="False" Name="Validate Supported Protocols.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="42" IsStatic="False" IsConstructor="False" Name="Write Binary.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="43" IsStatic="False" IsConstructor="False" Name="Write Protocols.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="44" IsStatic="False" IsConstructor="False" Name="Write Return Headers.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="45" IsStatic="False" IsConstructor="False" Name="Write Send Headers.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="46" IsStatic="False" IsConstructor="False" Name="Write Socket.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Function Id="47" IsStatic="False" IsConstructor="False" Name="Write Text.gvi" ReturnType="Void" DeclaringType="@5b47813043c74b78bcf92d32cfa023bd" GenericTypeDefinition="Void" />
+					<Property Name="Is Server" Getter="Read Is Server.gvi" DataType="Boolean" />
+					<Property Name="Protocols" Getter="Read Protocols.gvi" Setter="Write Protocols.gvi" DataType="String[]" />
+					<Property Name="Return Headers" Getter="Read Return Headers.gvi" Setter="Write Return Headers.gvi" DataType="@bd2232353db34e3ebe062acdcac878ce" />
+					<Property Name="Send Header String" Getter="Read Send Header String.gvi" DataType="String" />
+					<Property Name="Send Headers" Setter="Write Send Headers.gvi" DataType="@cd943a715bf84b63bf81ff4656155794" />
+					<Property Name="Socket" Getter="Read Socket.gvi" Setter="Write Socket.gvi" DataType="@71d33f47c162455bbe982d174d94f05b" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="07f071015808433da381d3cb1564379a">
+			<Composite Id="1" Name="gObject" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="71d33f47c162455bbe982d174d94f05b">
+			<Attributed AttributedType="@3b2ed614fc1245f09a3002d4db3c75ee">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Sockets" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="bd2232353db34e3ebe062acdcac878ce">
+			<Composite Id="1" Name="Variant" Sealed="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="cd943a715bf84b63bf81ff4656155794">
+			<VariableArray DereferenceType="@0212853a641a4b539e5fbf3f043c7b38" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="3b2ed614fc1245f09a3002d4db3c75ee">
+			<Composite Id="1" Name="Socket.gtype" GenericTypeDefinition="Void" BaseType="@07f071015808433da381d3cb1564379a">
+				<Members>
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void" DeclaringType="@71d33f47c162455bbe982d174d94f05b" GenericTypeDefinition="Void" />
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Read.gvi" ReturnType="Void" DeclaringType="@71d33f47c162455bbe982d174d94f05b" GenericTypeDefinition="Void" />
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Write.gvi" ReturnType="Void" DeclaringType="@71d33f47c162455bbe982d174d94f05b" GenericTypeDefinition="Void" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="0212853a641a4b539e5fbf3f043c7b38">
+			<Attributed AttributedType="@f4e364d970ca48949b31b2cab25d42e3">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebSockets::WebSocket" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="f4e364d970ca48949b31b2cab25d42e3">
+			<Typedef TypedefName="Headers.gtype" UnderlyingType="@ae60ca2ed0584a7da1b592a7b2f695ef" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="ae60ca2ed0584a7da1b592a7b2f695ef">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Name" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Value" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+	<TypeAppearanceTable xmlns="http://www.ni.com/PlatformFramework" />
+</SourceFile>

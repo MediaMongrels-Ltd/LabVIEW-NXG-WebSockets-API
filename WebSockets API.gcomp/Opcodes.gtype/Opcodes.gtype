@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="1996876480DCD999823DAF444B2B2CB5B225E9E61C5B51560E3C20FDDF5C69F7A3EA2EDE3F39FCDD0BFACE49C5307D20A4C62C6997993C4BEA0865B8C7210E08" Timestamp="1D5EA63F7918BC8" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="UInt8" Id="c5f3e4ab77b24e95accc24edf8c4f3a4" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="72980b4642df45da96e01ecfba8c35e1" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="2d3ed8c449ef4e0095813d3aacfda680" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="d2dd874dc4d64d1cbce885a80634a5a5" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="81e2393828ed40e1b6a5807de80f7f94" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="5361c2eec0074546b068c8641df83581" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="473f4f85d2da4c6986f16cd106f15d75" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD1SURBVEhL7ZLRDcMgDETZiZ28k3dihcxCD44YB5JIbcNfnhx6Z7vXCiVo1kW1ODqE/gPUOMmgbYdQW3Mc+a6mhFOSsMMy3df20Wmz7zdTQ1NmdMQJbJXQWmfW1mkCT0oZnolIj9UGEVE5rJ5F+NP3i8DD6FijBVprdIWrpH1hx+ylKB+IkxRUcC/wpSQGXDj+d136rVx0KaQjFEKRHv+P3rYtRC1VEnE1RUfctIzbX1W5tVXkZbzRA2/0QIv2LyI1oAU3lhrMtj5u8JQF52Pim8bQn23v0Ddz3CZX03sL+sC6fkz8FHhLDWY7pjzIGz3wRh/I+QP3m9oimShBPAAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="UInt8" Id="ef9039c1ea65428d90df37f7ff892604" Name="Opcode">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="63db895727e84c489cf18db58446a457" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="7fbb25ffb1a04c3ba6320b93e1c0b4c2" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="71955ff2286043ac8964f58358cf7ecc" Name="Opcodes.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="e24ca59fb7fa4ca2969a2c2bee3d57b4" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition Id="d06e0d96d05c4b86aeb6132aa58d5eec" xmlns="http://www.ni.com/MocCommon">
+					<RingSelector AllowNonSequentialValues="[bool]True" AllowUndefinedValueEntry="[bool]False" Enabled="[bool]True" Height="[float]24" Id="745adb459c194b9ea6030dbd6025e550" IsTabStop="[bool]True" Label="[UIModel]54c094cfe1764b90a376117c17633a86" Left="[float]100" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]30" Value="{DataItemBinding Id=ef9039c1ea65428d90df37f7ff892604}" ValueFormatter="[string]LV:G0" ValueType="[Type]UInt8" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]116" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<RingSelectorInfo DisplayValue="[string]Cont. Frame" Value="[byte]0" ValueType="[Type]UInt8" />
+						<RingSelectorInfo DisplayValue="[string]Text" Value="[byte]1" ValueType="[Type]UInt8" />
+						<RingSelectorInfo DisplayValue="[string]Binary" Value="[byte]2" ValueType="[Type]UInt8" />
+						<RingSelectorInfo DisplayValue="[string]Close Frame" Value="[byte]8" ValueType="[Type]UInt8" />
+						<RingSelectorInfo DisplayValue="[string]Ping" Value="[byte]9" ValueType="[Type]UInt8" />
+						<RingSelectorInfo DisplayValue="[string]Pong" Value="[byte]10" ValueType="[Type]UInt8" />
+					</RingSelector>
+					<Label Height="[float]16" Id="54c094cfe1764b90a376117c17633a86" LabelAlignment="[PartAlignment]LeftTop" LabelOwner="[UIModel]745adb459c194b9ea6030dbd6025e550" Left="[float]49" Text="[string]Opcode" Top="[float]30" Width="[float]42" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

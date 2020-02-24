@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="96BCDD5CC9A375BCF5B6361BD01A7D09DA55E5878CE1FC38556CCE667ABC2273BEDA230F7BC9B23E07AA08A8EC8D913C56D0A5B72405EE724CE47590D148B94A" Timestamp="1D5EA67DE342A43" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<PaletteDefinition BindingKeywords="NativeTarget" PaletteBaseName="Diagram" xmlns="http://www.ni.com/PlatformFramework">
+		<PaletteContentCategory Display="Data Communications" Id="bf7296b17bfa4cd1ae944959ec369961" IsExternal="True" ShortName="Data Communications" UniqueId="NI.LabVIEW.VI:PaletteCategory.DataExchange" Weight="8">
+			<PaletteContentCategory Display="Internet" Id="d2158943bdb24494905d70035f1cde88" IsExternal="True" ShortName="Internet" UniqueId="NI.LabVIEW.DataComms:PaletteCategory.Internet">
+				<PaletteContentCategory Display="Sockets (MediaMongrels Ltd WebSockets API)" Id="f4f79855b55644d1a92a1828289284ce" ShortName="Sockets" UniqueId="98de0d19-4555-4142-83ba-28fdb1b1b054">
+					<IconPanel Height="[float]40" Id="d64c58889495425c87e49e6e11391d5d" Left="[float]0" Top="[float]0" Width="[float]40">
+						<IconTemplate Id="2fb35ff8e7484501b8765679d56da3a6" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+						<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="87129fe52fe0441d8eef2f544635ded3" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+					</IconPanel>
+					<PaletteContentCategory Display="Socket Listener" Id="5457317bfb6c4d7ca62f40ce2d674cf8" ShortName="Socket Listener" UniqueId="72f2017f-3f2f-42d3-863a-7f61b409b9b0">
+						<PaletteContentLeaf ClipboardDataFormat="Constant" Display="Socket Listener Constant" Id="3b08540316564df59bdfc0ed720764b2" MethodTarget="Sockets::Socket Listener.gtype" UniqueId="Sockets:Socket Listener.gtype.Constant">
+							<IconPanel Height="[float]40" Id="cd1f7cb0161a40728faa2cc5061563cb" Left="[float]0" Top="[float]0" Width="[float]40">
+								<IconTemplate Id="5f1ad464a2e94d37a4663b7c1332ae5a" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+								<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5470009,12 L 39.5470009,16.5 L 31,20.7399998 C 31,20.7399998 31,21.0109997 31,23 C 31,24.9899998 29.0470009,27 27.0470009,27 C 18.3799992,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="c3331a031dd741c6881ff1a534bee302" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 3.95300007,13.0159998 C 5.03100014,13.0159998 25.8120003,13.0159998 30.25,13.0159998 L 37.2970009,16.5 L 30,20 L 30,23.0160007 C 30,24.5160007 28.5470009,26 27.0470009,26 C 18.3799992,26 5.5,26 4,26 C 2.5,26 1,24.5 1,23 L 1,16 C 1,14.5 2.45300007,13.0159998 3.95300007,13.0159998 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="9568bf175dc543a6af1b519ff7b80754" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 4,14 L 6,14 C 6,14 5.95300007,25 6,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 31.5470009,16.5 L 30.0470009,19 L 35.0470009,16.5 L 30.0470009,14 L 31.5470009,16.5 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="aae84cd333a744f79dba53e8c4ad6077" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 7,25 L 7,14 L 28.9370003,14 L 30.3120003,16.5 Z" Fill="[SMSolidColorBrush]#ffe5e5e5" Height="[float]40" Id="8e5c1585eca9483ab0f0afdabf92267d" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</PaletteContentLeaf>
+						<PaletteContentLeaf ClipboardDataFormat="Terminal" Display="Socket Listener Terminal" Id="b5810b2f5bbc4e7895135cc4eb64c3f5" MethodTarget="Sockets::Socket Listener.gtype" UniqueId="Sockets:Socket Listener.gtype.Terminal">
+							<IconPanel Height="[float]40" Id="2e8450fc42674f0a8bfb407682e498ce" Left="[float]0" Top="[float]0" Width="[float]40">
+								<IconTemplate Id="7dc3c9bb259f4f53b31e5510483ee95b" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+								<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5,12 L 39.5,16.5 L 31,20.75 C 31,20.75 31,21.0209999 31,23.0100002 C 31,25 29,27 27,27 C 18.3330002,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="9f8087c5075248248ebeb790f80370b3" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 4,13 C 5.07800007,13 25.8120003,13 30.25,13 L 37.2970009,16.4839993 L 30,20 L 30,23 C 30,24.5 28.5470009,25.9839993 27.0470009,25.9839993 C 18.3799992,25.9839993 5.54699993,25.9839993 4.04699993,25.9839993 C 2.54699993,25.9839993 1.04700005,24.4839993 1.04700005,22.9839993 L 1.04700005,15.9840002 C 1.04700005,14.4840002 2.5,13 4,13 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="b175f497143d441992120f9390e92d0a" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 4,14 L 18.0839996,14 L 28.9370003,14 L 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 30,14 L 35,16.5 L 30,19 L 31.5,16.5 L 30,14 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="6921f10826945b290e06aada90a9406" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</PaletteContentLeaf>
+						<IconPanel Height="[float]40" Id="1fe595988972466c91fdd5f46d850869" Left="[float]0" Top="[float]0" Width="[float]40">
+							<IconTemplate Id="fbebb1ab77784c3ea8c493dd018054ba" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+							<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="dea8b4350749493aab0a1074f00d0a3c" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+						<PaletteContentLeaf Id="21fc6c52ac9645f58c8ba261898b5acb" MethodTarget="Sockets::Socket Listener.gtype::Close.gvi" />
+						<PaletteContentLeaf Id="962dd7407c5e4d42b6d03a47ea934a09" MethodTarget="Sockets::Socket Listener.gtype::Create Listener.gvi" />
+						<PaletteContentLeaf Id="8143f3016b944f3ba39839ab6f6f1223" MethodTarget="Sockets::Socket Listener.gtype::Wait on Listener.gvi" />
+					</PaletteContentCategory>
+					<PaletteContentCategory Display="Socket" Id="c3b9005e54874283bcf444d926a568a7" ShortName="Socket" UniqueId="46b19b4b-a844-4f96-8cdc-559e9dd7ac92">
+						<PaletteContentLeaf ClipboardDataFormat="Constant" Display="Socket Constant" Id="a8d71a8b2f2b45c5a7c96e6f114f182b" MethodTarget="Sockets::Socket.gtype" UniqueId="Sockets:Socket.gtype.Constant">
+							<IconPanel Height="[float]40" Id="3f4ea3a666984d5290e2408662d7dba6" Left="[float]0" Top="[float]0" Width="[float]40">
+								<IconTemplate Id="475d10e9745543719e3c5065336bc944" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+								<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5470009,12 L 39.5470009,16.5 L 31,20.7399998 C 31,20.7399998 31,21.0109997 31,23 C 31,24.9899998 29.0470009,27 27.0470009,27 C 18.3799992,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="abe4f600573141c6898ef6b50fb7c23f" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 3.95300007,13.0159998 C 5.03100014,13.0159998 25.8120003,13.0159998 30.25,13.0159998 L 37.2970009,16.5 L 30,20 L 30,23.0160007 C 30,24.5160007 28.5470009,26 27.0470009,26 C 18.3799992,26 5.5,26 4,26 C 2.5,26 1,24.5 1,23 L 1,16 C 1,14.5 2.45300007,13.0159998 3.95300007,13.0159998 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="af354a9864464c71869dbd0e9bd81d74" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 4,14 L 6,14 C 6,14 5.95300007,25 6,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 31.5470009,16.5 L 30.0470009,19 L 35.0470009,16.5 L 30.0470009,14 L 31.5470009,16.5 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="88fe4658ea234f5a8e68c614a43f6c50" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 7,25 L 7,14 L 28.9370003,14 L 30.3120003,16.5 Z" Fill="[SMSolidColorBrush]#ffe5e5e5" Height="[float]40" Id="19b6c86b8dd94cf99829da4d08a5bd84" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</PaletteContentLeaf>
+						<PaletteContentLeaf ClipboardDataFormat="Terminal" Display="Socket Terminal" Id="f2bf9467c61e4185a7891536899a6cdf" MethodTarget="Sockets::Socket.gtype" UniqueId="Sockets:Socket.gtype.Terminal">
+							<IconPanel Height="[float]40" Id="58be7510203944a88c3136dae310d266" Left="[float]0" Top="[float]0" Width="[float]40">
+								<IconTemplate Id="2c8284ea8c7c4297b3a8b90ddceb15a5" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+								<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5,12 L 39.5,16.5 L 31,20.75 C 31,20.75 31,21.0209999 31,23.0100002 C 31,25 29,27 27,27 C 18.3330002,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="3d3270a13f264b249852c197e91a1023" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 4,13 C 5.07800007,13 25.8120003,13 30.25,13 L 37.2970009,16.4839993 L 30,20 L 30,23 C 30,24.5 28.5470009,25.9839993 27.0470009,25.9839993 C 18.3799992,25.9839993 5.54699993,25.9839993 4.04699993,25.9839993 C 2.54699993,25.9839993 1.04700005,24.4839993 1.04700005,22.9839993 L 1.04700005,15.9840002 C 1.04700005,14.4840002 2.5,13 4,13 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="540de9fff27e423ead75b03e2c71099b" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 4,14 L 18.0839996,14 L 28.9370003,14 L 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 30,14 L 35,16.5 L 30,19 L 31.5,16.5 L 30,14 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="71e23aae1b5c4a089a90b68fe3a7deec" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</PaletteContentLeaf>
+						<IconPanel Height="[float]40" Id="d458f3d7e16f4bd8bad5efd9711e165c" Left="[float]0" Top="[float]0" Width="[float]40">
+							<IconTemplate Id="b93439ae08914d0c8ca6299ed51f124f" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+							<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="1b723d0d513341789f64d78a3e1fc8d2" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+						<PaletteContentLeaf Id="f027145510a4471cbe8bfb175237cc8e" MethodTarget="Sockets::Socket.gtype::Close.gvi" />
+						<PaletteContentLeaf Id="3559891e3f0645d3a971868cadf8f6f3" MethodTarget="Sockets::Socket.gtype::Read.gvi" />
+						<PaletteContentLeaf Id="4ae2411e57a14b159a6d5922fe3b6d79" MethodTarget="Sockets::Socket.gtype::Write.gvi" />
+					</PaletteContentCategory>
+					<PaletteContentCategory Display="VISA TCP Listener" Id="96be918bd1094b40a0ca081a236e3d46" ShortName="VISA TCP Listener" UniqueId="5538b658-5cb0-4b6b-8e25-022bf6c3eba1">
+						<PaletteContentLeaf ClipboardDataFormat="Constant" Display="VISA TCP Listener Constant" Id="f16093e7a97f46e89dc1c283e53ef5cc" MethodTarget="Sockets::VISA TCP Listener.gtype" UniqueId="Sockets:VISA TCP Listener.gtype.Constant">
+							<IconPanel Height="[float]40" Id="bfe66cae9aad4b53b25184c674c44d89" Left="[float]0" Top="[float]0" Width="[float]40">
+								<IconTemplate Id="bda9f9c506694f48bdfc750a32aa5a58" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+								<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5470009,12 L 39.5470009,16.5 L 31,20.7399998 C 31,20.7399998 31,21.0109997 31,23 C 31,24.9899998 29.0470009,27 27.0470009,27 C 18.3799992,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="1d3556b2b5d048709b9604321b665b53" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 3.95300007,13.0159998 C 5.03100014,13.0159998 25.8120003,13.0159998 30.25,13.0159998 L 37.2970009,16.5 L 30,20 L 30,23.0160007 C 30,24.5160007 28.5470009,26 27.0470009,26 C 18.3799992,26 5.5,26 4,26 C 2.5,26 1,24.5 1,23 L 1,16 C 1,14.5 2.45300007,13.0159998 3.95300007,13.0159998 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="58ae84cdea6949ed893d5f01a8667f0f" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 4,14 L 6,14 C 6,14 5.95300007,25 6,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 31.5470009,16.5 L 30.0470009,19 L 35.0470009,16.5 L 30.0470009,14 L 31.5470009,16.5 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="c6435e395aaa4d0ebc7c089f26bebd5e" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 7,25 L 7,14 L 28.9370003,14 L 30.3120003,16.5 Z" Fill="[SMSolidColorBrush]#ffe5e5e5" Height="[float]40" Id="466d001627434987961cc80d501e9f95" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</PaletteContentLeaf>
+						<PaletteContentLeaf ClipboardDataFormat="Terminal" Display="VISA TCP Listener Terminal" Id="11aec045ed564bc8a87f52708e2c7aeb" MethodTarget="Sockets::VISA TCP Listener.gtype" UniqueId="Sockets:VISA TCP Listener.gtype.Terminal">
+							<IconPanel Height="[float]40" Id="81091fa1ccbc448a99b6623c87d76915" Left="[float]0" Top="[float]0" Width="[float]40">
+								<IconTemplate Id="8fb3c790595403ca8d08adacde34948" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+								<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5,12 L 39.5,16.5 L 31,20.75 C 31,20.75 31,21.0209999 31,23.0100002 C 31,25 29,27 27,27 C 18.3330002,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="dbf9df956c9849f8914e9f4f9181af3e" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 4,13 C 5.07800007,13 25.8120003,13 30.25,13 L 37.2970009,16.4839993 L 30,20 L 30,23 C 30,24.5 28.5470009,25.9839993 27.0470009,25.9839993 C 18.3799992,25.9839993 5.54699993,25.9839993 4.04699993,25.9839993 C 2.54699993,25.9839993 1.04700005,24.4839993 1.04700005,22.9839993 L 1.04700005,15.9840002 C 1.04700005,14.4840002 2.5,13 4,13 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="cdbf1ded82204165b59a8be0fd2c9fb9" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 4,14 L 18.0839996,14 L 28.9370003,14 L 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 30,14 L 35,16.5 L 30,19 L 31.5,16.5 L 30,14 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="7ec229ea5e3a423a8724031edfac90f8" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</PaletteContentLeaf>
+						<IconPanel Height="[float]40" Id="8611b7cdef9c43b7a5b6b5723ebd02d9" Left="[float]0" Top="[float]0" Width="[float]40">
+							<IconTemplate Id="fe0f8cbfc2f84a3fa84789e3e29f59ab" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+							<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="1dc32b36531c4cdb852b7d7d04bc772f" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+						<PaletteContentLeaf Id="e2416abe1c3c49c59745a226f7b2a942" MethodTarget="Sockets::VISA TCP Listener.gtype::Close.gvi" />
+						<PaletteContentLeaf Id="4360200c47134e7abf8719cabc920945" MethodTarget="Sockets::VISA TCP Listener.gtype::Create Listener.gvi" />
+						<PaletteContentLeaf Id="24c4d9af9a254af889b307f001e70a73" MethodTarget="Sockets::VISA TCP Listener.gtype::New VISA TCP Listener.gvi" />
+						<PaletteContentLeaf Id="308864ed1c9c4a7db63eb9fc464248e4" MethodTarget="Sockets::VISA TCP Listener.gtype::Wait on Listener.gvi" />
+					</PaletteContentCategory>
+					<PaletteContentCategory Display="VISA TCP" Id="e06e48ecefde4056b6106e418f82b141" ShortName="VISA TCP" UniqueId="37f6b447-0d5a-4366-a143-2516beaf240a">
+						<PaletteContentLeaf ClipboardDataFormat="Constant" Display="VISA TCP Constant" Id="b51c1deeea434101a5f4da4bd74ae20c" MethodTarget="Sockets::VISA TCP.gtype" UniqueId="Sockets:VISA TCP.gtype.Constant">
+							<IconPanel Height="[float]40" Id="b45b21b7df6847c4a7a23893d3daea1b" Left="[float]0" Top="[float]0" Width="[float]40">
+								<IconTemplate Id="537005fc40484a4dbe820c035403cfe7" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+								<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5470009,12 L 39.5470009,16.5 L 31,20.7399998 C 31,20.7399998 31,21.0109997 31,23 C 31,24.9899998 29.0470009,27 27.0470009,27 C 18.3799992,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="62fe15d1d78047bf9ee9653d82016a85" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 3.95300007,13.0159998 C 5.03100014,13.0159998 25.8120003,13.0159998 30.25,13.0159998 L 37.2970009,16.5 L 30,20 L 30,23.0160007 C 30,24.5160007 28.5470009,26 27.0470009,26 C 18.3799992,26 5.5,26 4,26 C 2.5,26 1,24.5 1,23 L 1,16 C 1,14.5 2.45300007,13.0159998 3.95300007,13.0159998 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="53854b47f5b44029264a5a475a2e094" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 4,14 L 6,14 C 6,14 5.95300007,25 6,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 31.5470009,16.5 L 30.0470009,19 L 35.0470009,16.5 L 30.0470009,14 L 31.5470009,16.5 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="d0f46df6525c477dbdba8b0e6a7c2381" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 7,25 L 7,14 L 28.9370003,14 L 30.3120003,16.5 Z" Fill="[SMSolidColorBrush]#ffe5e5e5" Height="[float]40" Id="f9eea75a4ec24f129f13e379019cd4ba" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</PaletteContentLeaf>
+						<PaletteContentLeaf ClipboardDataFormat="Terminal" Display="VISA TCP Terminal" Id="493adc977aba4915ae6c5363655387bd" MethodTarget="Sockets::VISA TCP.gtype" UniqueId="Sockets:VISA TCP.gtype.Terminal">
+							<IconPanel Height="[float]40" Id="67c0f18b63374bdcb02eea501d2f6f15" Left="[float]0" Top="[float]0" Width="[float]40">
+								<IconTemplate Id="bc79ec7cb02495c82eaf4b16a402260" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+								<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5,12 L 39.5,16.5 L 31,20.75 C 31,20.75 31,21.0209999 31,23.0100002 C 31,25 29,27 27,27 C 18.3330002,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="10b6892c0a5f4f65af5e34794422b8fd" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 4,13 C 5.07800007,13 25.8120003,13 30.25,13 L 37.2970009,16.4839993 L 30,20 L 30,23 C 30,24.5 28.5470009,25.9839993 27.0470009,25.9839993 C 18.3799992,25.9839993 5.54699993,25.9839993 4.04699993,25.9839993 C 2.54699993,25.9839993 1.04700005,24.4839993 1.04700005,22.9839993 L 1.04700005,15.9840002 C 1.04700005,14.4840002 2.5,13 4,13 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="d5dad8d332d94ae7852b7dce9a08c631" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 4,14 L 18.0839996,14 L 28.9370003,14 L 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 30,14 L 35,16.5 L 30,19 L 31.5,16.5 L 30,14 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="1b3410b0d17b4e6d9c9b223aa1ad50d1" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</PaletteContentLeaf>
+						<IconPanel Height="[float]40" Id="af5f4371805144efbbb2d11e8f9d8036" Left="[float]0" Top="[float]0" Width="[float]40">
+							<IconTemplate Id="133faedd08b14c3f806314b21deeb039" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+							<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="d2b590d32ece418baa831a997feafc6c" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+						<PaletteContentLeaf Id="23b8811fdc7d49a692c6078737b0b0cd" MethodTarget="Sockets::VISA TCP.gtype::Close.gvi" />
+						<PaletteContentLeaf Id="9451843bce774766a305aeb7b01a3cfb" MethodTarget="Sockets::VISA TCP.gtype::New TCP Socket Connection.gvi" />
+						<PaletteContentLeaf Id="9f3d0b832b3c469eb6556f87de95dacf" MethodTarget="Sockets::VISA TCP.gtype::New TCP Socket from Refnum.gvi" />
+						<PaletteContentLeaf Id="d79627d73b6d4c3d96adf5eb5d237fa3" MethodTarget="Sockets::VISA TCP.gtype::Read TCP Refnum.gvi" />
+						<PaletteContentLeaf Id="f40725ea2e0647188f7793f5c591b735" MethodTarget="Sockets::VISA TCP.gtype::Read.gvi" />
+						<PaletteContentLeaf Id="4454a4f5766b4f5fa5d8245886d137eb" MethodTarget="Sockets::VISA TCP.gtype::Write TCP Refnum.gvi" />
+						<PaletteContentLeaf Id="ad100b86462b441e9fd70eea81d03e9c" MethodTarget="Sockets::VISA TCP.gtype::Write.gvi" />
+					</PaletteContentCategory>
+				</PaletteContentCategory>
+			</PaletteContentCategory>
+		</PaletteContentCategory>
+	</PaletteDefinition>
+</SourceFile>

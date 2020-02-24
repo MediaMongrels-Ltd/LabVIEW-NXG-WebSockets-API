@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="884809CAC596D5A24CA92A75FFBECA55CA9DEED9C385EEF78CBF58D2D4253E825E538B07D3253DC96D4F4DCF04AD580DDD8CDE0E8A12A59EB91849E7B48E9639" Timestamp="1D5EA67E6DA8200" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition AutoIncrementOnBuild="True" Company="MediaMongrels Ltd" DefaultConfigurationName="Default" Id="564e0186d5104362af5a7cfbb4582748" Product="WebSockets API Socket Library" RootNamespaceId="cfcef713f05f4dcaad4a33d5a62e52c0" UserVersion="1.0.0.0" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="4a656cce6ed547c79949a60bc37b6c7e" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="25fd68bdc39642658bfffb5ad31a93a6" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="b30c57408066460ea350609e61050475" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="553987a9c4f54b73979efbf7ef11833d" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration AssociatedPalettes="83e9e9978d5540cd8b28f1df3264ad83" Id="4b70ef8053c480d8419beabfbddfd08" Name="Default">
+			<CompilerSymbolTable Id="b172fb6341324cc0b221b19fdf749017" xmlns="http://www.ni.com/PlatformFramework" />
+			<ComponentItemProperties AssociatedEnvoyId="6c55982a37a945e792c05c9d3b2b77da" Exported="True" Id="7b66988e371a4c7dbccf26b375b3d6ae" />
+			<ComponentItemProperties AssociatedEnvoyId="7c4a61703eba413bb8cf2398ccf7fbd3" Exported="True" Id="390dfc6ffe2f4d1bb2167f132bca29c7" />
+			<ComponentItemProperties AssociatedEnvoyId="be916da5727e4db5a948093728543716" Exported="True" Id="70d4e1bdc4f14fed8caac6728cdf97d4" />
+			<ComponentItemProperties AssociatedEnvoyId="ce6f19f278474a0dbd7ccbf71f122dec" Exported="True" Id="ab16f06550a4426ba77fa529391840e6" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="a2bbf9c867e34cb296057234bf99db20" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="f6979c2e59e459c88d11d6e609916a7" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="526c059bb7fd448dbf9f85f3fbe321d2" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="cfcef713f05f4dcaad4a33d5a62e52c0" Name="Sockets">
+				<SourceFileReference Bindings="EnvoyManager" Id="6c55982a37a945e792c05c9d3b2b77da" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Socket.gtype" StoragePath="Socket.gtype\Socket.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="7c4a61703eba413bb8cf2398ccf7fbd3" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Socket Listener.gtype" StoragePath="Socket Listener.gtype\Socket Listener.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="be916da5727e4db5a948093728543716" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="VISA TCP Listener.gtype" StoragePath="VISA TCP Listener.gtype\VISA TCP Listener.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="ce6f19f278474a0dbd7ccbf71f122dec" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="VISA TCP.gtype" StoragePath="VISA TCP.gtype\VISA TCP.gtype" />
+				<SourceFileReference Bindings="NativeTarget" Id="83e9e9978d5540cd8b28f1df3264ad83" ModelDefinitionType="NationalInstruments.SourceModel.PaletteDefinition" Name="Sockets.gpal" OverridingModelDefinitionType="NationalInstruments.SourceModel.PaletteDocument" StoragePath="Sockets.gpal" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="8703cbf755a5460995dfd8615363fa06" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="Sockets.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="4b70ef8053c480d8419beabfbddfd08" Id="ad272639e6f2432f8d03cef97b0aa38c" Name="Default" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
