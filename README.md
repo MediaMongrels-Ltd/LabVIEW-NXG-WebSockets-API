@@ -26,4 +26,4 @@ Examples are not currently available for the LabVIEW NXG version of the package.
 * Feel free to fork and create a pull request to improve the library by fixing issues. All submissions must follow the requirements for NI Tools Network products.
 
 ## Donations
-If you wish to support and share your gratitude for this library then donations are warmly received. PayPal donations can be sent to accounts@mediamongrels.com
+If you wish to support and share your gratitude for this library then donations are warmly received. Click the 'Sponsor' button in GitHub and PayPal donations can be sent to accounts@mediamongrels.com
