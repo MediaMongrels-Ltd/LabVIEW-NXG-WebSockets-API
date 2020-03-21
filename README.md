@@ -1,4 +1,4 @@
-# LabVIEW-WebSockets-API
+# LabVIEW NXG WebSockets API
 MediaMongrels Ltd LabVIEW NXG WebSockets API. This a port of the LabVIEW WebSockets API for LabVIEW NXG.
 
 ## Product Homepage
